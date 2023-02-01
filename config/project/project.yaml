@@ -1,13 +1,12 @@
-dateModified: 1674610444
+dateModified: 1675214240
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    7dd82277-b22c-4d92-993d-429ae8f92bf8: Common
-    16c32343-c234-4479-a53b-8de7cad7cf71: 'The Invisible Man Leadership Program'
-    1467d9bb-2f87-4770-aa6e-91b0edc0353b: 'The Invisible Man Leadership Program'
+    7dd82277-b22c-4d92-993d-429ae8f92bf8: Common # Common
+    16c32343-c234-4479-a53b-8de7cad7cf71: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
 system:
   edition: solo
   live: true
