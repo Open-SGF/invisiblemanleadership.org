@@ -45,7 +45,6 @@ services:
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-p${CRAFT_DB_PASSWORD}"]
       interval: 5s
-      retries: 3
 
   redis:
     image: redis:5-alpine
