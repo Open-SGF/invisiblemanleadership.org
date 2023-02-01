@@ -7,6 +7,7 @@
 - Copy `.env.example` to `.env`
 - Run `docker compose up -d`
     - This will spin up several containers based on the contents of `docker-compose.yaml`
+    - It's possible that the `mysql` containers exposed port will conflict with an existing mysql instance on your host. If that's the case set the env variable `FORWARDED_DB_PORT` to expose a different port on the `mysql` container 
 - After the containers are running there are a few commands we'll need to execute inside the `web` container from our `docker-compose.yaml`. There's a few ways to do this
     - You can shell into the container using `docker compose exec web sh`. This will leave you with a prompt in the `web` container that you can use to run each command.
         Note: you'll have to manually exit this shell when you're finished by running the `exit` command

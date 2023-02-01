@@ -32,7 +32,7 @@ services:
   mysql:
     image: mysql:8.0.32
     ports:
-      - 3306:3306
+      - ${FORWARDED_DB_PORT:-3306}:3306
     environment:
       MYSQL_ROOT_PASSWORD: '${CRAFT_DB_PASSWORD}'
       MYSQL_ROOT_HOST: "%"
