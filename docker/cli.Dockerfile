@@ -5,7 +5,11 @@ ARG WWWUSER
 
 USER root
 
-RUN addgroup -g $WWWGROUP craft
-RUN adduser -D -s /bin/bash -G craft -u $WWWUSER craft
+# change uid and gid for elasticsearch user
+RUN apk --no-cache add shadow && \
+    usermod -u $WWWUSER www-data && \
+    groupmod -g $WWWGROUP www-data
 
-USER craft
+RUN chown -R www-data:www-data /app
+
+USER www-data
