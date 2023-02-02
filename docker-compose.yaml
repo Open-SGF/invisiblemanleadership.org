@@ -1,7 +1,13 @@
 version: "3.6"
 services:
   console:
-    image: craftcms/cli:8.1-dev
+    build:
+      context: ./docker
+      dockerfile: cli.Dockerfile
+      args:
+          WWWUSER: "${WWWUSER:-1000}"
+          WWWGROUP: "${WWWGROUP:-1000}"
+    image: craft-8.1/cli
     env_file: .env
     environment:
       XDEBUG_CONFIG: client_host=host.docker.internal
@@ -15,7 +21,13 @@ services:
     command: php craft queue/listen
 
   web:
-    image: craftcms/nginx:8.1-dev
+    build:
+      context: ./docker
+      dockerfile: web.Dockerfile
+      args:
+          WWWUSER: "${WWWUSER:-1000}"
+          WWWGROUP: "${WWWGROUP:-1000}"
+    image: craft-8.1/app
     ports:
       - 8080:8080
     env_file: .env
