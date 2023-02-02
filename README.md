@@ -6,7 +6,7 @@
 ## Setup
 - Copy `.env.example` to `.env`
 - If you're on linux you'll need to add the `WWWGROUP` and `WWWUSER` variables into `.env`. Without setting these values it's likely you'll run into permission errors later on
-    - These need to be set to user id and group id of your default user and group. You can find these values by running the `id` command. You're looking for the `uid` (user id)  and `gid` (group id) values 
+    - These need to be set to the user id and group id of your host machines user and group. You can find these values by running the `id` command on the host. In that commands output the user id is after `uid` and the group id is after `gid`
 - Run `docker compose up -d web`
     - This will spin up the `web` container from `docker-compose.yaml` and it's dependent containers (`mysql` and `redis`).
     - It's possible that the `mysql` container's exposed port will conflict with an existing mysql instance on your host. If that's the case set the env variable `FORWARDED_DB_PORT` to expose a different port on the `mysql` container 
