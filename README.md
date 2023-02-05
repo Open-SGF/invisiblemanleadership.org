@@ -16,6 +16,7 @@
     - Or, you can prefix each command with `docker compose exec web`. This will execute the command in the `web` container and exit when finished.
         - You'll likely be using this prefix a lot, you might want to alias it to something like `dew`
 - Run the following commands in the `web` container
+    - `composer install`
     - `php craft install`
         - This command will prompt for admin user credentials. These values will only be used on your local machine. They don't need to be unique or very secure.
     - `php craft migrate/all`
