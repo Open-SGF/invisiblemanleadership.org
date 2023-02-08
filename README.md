@@ -5,8 +5,6 @@
 
 ## Setup
 - Copy `.env.example` to `.env`
-- If you're on linux you'll need to add the `WWWGROUP` and `WWWUSER` variables into `.env`. Without setting these values it's likely you'll run into permission errors later on
-    - These need to be set to the user id and group id of your host machines user and group. You can find these values by running the `id` command on the host. In that commands output the user id is after `uid` and the group id is after `gid`
 - Run `docker compose up -d web`
     - This will spin up the `web` container from `docker-compose.yaml` and it's dependent containers (`mysql` and `redis`).
     - It's possible that the `mysql` container's exposed port will conflict with an existing mysql instance on your host. If that's the case set the env variable `FORWARDED_DB_PORT` to expose a different port on the `mysql` container 
@@ -18,8 +16,13 @@
 - Run the following commands in the `web` container
     - `composer install`
     - `php craft install`
-        - This command will prompt for admin user credentials. These values will only be used on your local machine. They don't need to be unique or very secure.
+        - This command will prompt you for several values. Go with the default for all of these except the admin credentials (which don't have a default)
+            - Note: The admin credentials will only be used on your local machine. They don't need to be unique or very secure.
     - `php craft migrate/all`
     - `php craft project-config/apply`
 - Run `docker compose up -d` to spin up the rest of the containers
 - Open `https://localhost:8080` in your browser to see the website
+
+## Troubleshooting
+- Permission denied error when running `composer install`
+    - If your host machine is linux it's possible that the user in the docker containers is different than the one on your host machine. You can add the env variables `WWWGROUP` and `WWWUSER` to `.env`. You'll need to set these values to be your host systems user id and group id. You can get these values with the `id` command. Make sure to rebuild your containers with `docker compose build --no-cache` afterwards.
