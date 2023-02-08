@@ -21,7 +21,7 @@
     - `php craft migrate/all`
     - `php craft project-config/apply`
 - Run `docker compose up -d` to spin up the rest of the containers
-- Open `https://localhost:8080` in your browser to see the website
+- Open `http://localhost:8080` in your browser to see the website
 
 ## Troubleshooting
 - Permission denied error when running `composer install`
