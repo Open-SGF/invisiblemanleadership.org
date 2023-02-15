@@ -1,0 +1,26 @@
+{
+  "name": "invisiblemanleadership.org",
+  "version": "1.0.0",
+  "description": "## Prequisites - [Docker](https://www.docker.com/)",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Open-SGF/invisiblemanleadership.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Open-SGF/invisiblemanleadership.org/issues"
+  },
+  "homepage": "https://github.com/Open-SGF/invisiblemanleadership.org#readme",
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "sass": "^1.58.1",
+    "vite": "^4.1.1",
+    "vite-plugin-restart": "^0.3.1"
+  }
+}
