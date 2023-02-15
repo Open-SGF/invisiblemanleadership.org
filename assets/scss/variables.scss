@@ -1,0 +1,41 @@
+
+$primary-font: serif;
+$secondary-font: sans-serif;
+
+$navigation-desktop-height: 104px;
+
+$colors: (
+    primary: (
+        light: #C8B8E1,
+        base: #9F75E1,
+        mid-gray: #9488A7,
+        mid-dark: #7e55be,
+        dark: #694D95,
+        translucent-dark: #744eb2c1,
+    ),
+    white: (
+        base: #FFF,
+    ),
+    black: (
+        base: #000,
+    )
+);
+
+$z-index: (
+    skip-nav: 20,
+    navigation: 10,
+    default: 0,
+);
+
+$breakpoints: (
+    x-tiny: 350,
+    tiny: 400,
+    x-small: 480,
+    mid-small: 600,
+    small: 768,
+    medium: 960,
+    mid-large: 1050,
+    large: 1224,
+    x-large: 1440,
+    xx-large: 1525
+);

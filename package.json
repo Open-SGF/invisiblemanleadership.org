@@ -22,5 +22,8 @@
     "sass": "^1.58.1",
     "vite": "^4.1.1",
     "vite-plugin-restart": "^0.3.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
