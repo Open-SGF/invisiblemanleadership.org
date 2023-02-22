@@ -8,7 +8,6 @@ export default ({ command }) => ({
     emptyOutDir: true,
     manifest: true,
     outDir: './web/dist/',
-    cssCodeSplit: false,
     rollupOptions: {
       input: {
         app: './assets/js/main.js',
