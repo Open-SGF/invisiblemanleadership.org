@@ -30,6 +30,7 @@ services:
     image: craft-8.1/app
     ports:
       - 8080:8080
+      - 5173:5173
     env_file: .env
     environment:
       XDEBUG_CONFIG: client_host=host.docker.internal

@@ -15,12 +15,18 @@
         - You'll likely be using this prefix a lot, you might want to alias it to something like `dew`
 - Run the following commands in the `web` container
     - `composer install`
+    - `npm install`
     - `php craft install`
         - This command will prompt you for several values. Go with the default for all of these except the admin credentials (username, email, and password none of which have a default)
             - Note: The admin credentials will only be used on your local machine. They don't need to be unique or very secure.
     - `php craft migrate/all`
     - `php craft project-config/apply`
 - Run `docker compose up -d` to spin up the rest of the containers
+- Start local development server for processing frontend assets
+    - You'll have to execute the following command in the container using the strategies from above
+    - `npm run dev`
+    - This command will take over that terminal. Press CTRL + C to cancel when you're done
+
 - Open `http://localhost:8080` in your browser to see the website
 
 ## Troubleshooting
