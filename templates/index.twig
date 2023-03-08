@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invisible Man</title>
-    {# <link rel="stylesheet" href="{{ craft.vite.entry("style.css") }}"> #}
+    <link rel="stylesheet" href="{{ craft.vite.entry("style.css") }}">
 </head>
 <body>
     
     <h1>Test</h1>
+
+
+    {% include '_modules/stats.twig' %}
 
     {{ craft.vite.script("assets/js/main.js", false) }}
 </body>
