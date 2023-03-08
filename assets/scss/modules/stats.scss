@@ -1,3 +1,26 @@
-body {
-  color: red !important;
+.stats-container {
+  width: 100%;
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .stats-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    .stat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .stat-title {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+  }
 }
