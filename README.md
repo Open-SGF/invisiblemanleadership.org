@@ -3,6 +3,9 @@
 ## Prequisites
 - [Docker](https://www.docker.com/)
 
+## Designs
+- [Wireframes](https://www.figma.com/file/n2lMhnZNeKAAKaNnOCo0mX/Invisible-Man-Wireframes?node-id=0%3A1)
+
 ## Setup
 - Copy `.env.example` to `.env`
 - Run `docker compose up -d web`
