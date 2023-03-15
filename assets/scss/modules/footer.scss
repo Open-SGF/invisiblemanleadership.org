@@ -1,0 +1,33 @@
+.footer {
+
+
+    &__basic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    &__header {
+        max-width: 50%;
+        align-items: center;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__sponsor {
+        width: 33%;
+        padding: 0px 1em;
+        margin: 0px .5em .5em .5em;
+
+        & img{
+            max-width: 100%;
+        }
+
+    }
+
+}

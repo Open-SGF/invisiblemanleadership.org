@@ -1,4 +1,4 @@
-dateModified: 1676423171
+dateModified: 1678237393
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -7,6 +7,7 @@ meta:
   __names__:
     7dd82277-b22c-4d92-993d-429ae8f92bf8: Common # Common
     16c32343-c234-4479-a53b-8de7cad7cf71: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
+    1467d9bb-2f87-4770-aa6e-91b0edc0353b: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
 plugins:
   vite:
     edition: standard
