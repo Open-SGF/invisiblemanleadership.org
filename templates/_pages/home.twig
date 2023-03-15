@@ -1,0 +1,8 @@
+{% extends '_base.twig' %}
+
+{% block main %}
+    {% if entry.exampleInput %}
+        {{ entry.exampleInput|markdown }}
+    {% endif %}
+    {% include '_modules/stats.twig' %}
+{% endblock %}
