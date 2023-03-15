@@ -1,0 +1,19 @@
+columnSuffix: qbgfkwvm
+contentColumnType: text
+fieldGroup: 7dd82277-b22c-4d92-993d-429ae8f92bf8 # Common
+handle: exampleInput
+instructions: null
+name: 'Example Input'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Placeholder Text'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
