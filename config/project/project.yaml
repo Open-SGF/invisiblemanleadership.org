@@ -1,4 +1,4 @@
-dateModified: 1678839133
+dateModified: 1679441761
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -20,7 +20,7 @@ system:
   edition: solo
   live: true
   name: 'The Invisible Man Leadership Program'
-  schemaVersion: 4.0.0.9
+  schemaVersion: 4.4.0.4
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
