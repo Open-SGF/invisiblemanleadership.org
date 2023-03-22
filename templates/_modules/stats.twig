@@ -1,17 +1,17 @@
+{#
+/**
+ * Available variables:
+ * - title: The main title of the accordion
+ * - stats: Array stats
+ */
+#}
 <section class="stats-container">
-    <h2 class="title">Mission Works & stats</h2>
+    <h2 class="title">{{ title }}</h2>
     <div class="stats-wrapper">
+        {% for stat in stats.all() %}
         <div class="stat">
-            <span class="stat-title">450</span>
-            <h3 class="stat-details">Young adults involved,</h3>
+            {{ stat.statItem }}
         </div>
-        <div class="stat">
-            <span class="stat-title">65%</span>
-            <h3>Job placement</h3>
-        </div>
-        <div class="stat">
-            <span class="stat-title">5,000</span>
-            <h3>Volunteer hours</h3>
-        </div>
+        {% endfor %}
     </div>
 </section>
