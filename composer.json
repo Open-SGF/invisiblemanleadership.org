@@ -2,6 +2,7 @@
   "require": {
     "craftcms/cms": "^4.3.5",
     "nystudio107/craft-vite": "4.0.5",
+    "verbb/super-table": "3.0.7",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
