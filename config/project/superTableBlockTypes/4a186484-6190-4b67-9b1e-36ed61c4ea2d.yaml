@@ -1,0 +1,44 @@
+changedFieldIndicator: 370442930
+field: 6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5 # Stats Table
+fieldLayouts:
+  21930f14-df21-45d1-a1ce-0a56afb59a24:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 665f6825-9a80-4138-a2bf-847c424ec67b # Stat Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49cf8cb2-6221-40ff-b9fc-f47f6d26b161
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c6aa661c-e1bf-44e3-a8d9-ac2426520757
+        userCondition: null
+fields:
+  665f6825-9a80-4138-a2bf-847c424ec67b: # Stat Item
+    columnSuffix: oqbcvutk
+    contentColumnType: text
+    fieldGroup: null
+    handle: statItem
+    instructions: null
+    name: 'Stat Item'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

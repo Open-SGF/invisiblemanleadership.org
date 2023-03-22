@@ -2,7 +2,22 @@
 
 {% block main %}
     {% if entry.exampleInput %}
-        {{ entry.exampleInput|markdown }}
+        {{ entry.exampleInput }}
     {% endif %}
-    {% include '_modules/stats.twig' %}
+
+    {% set blocks = entry.blocks.all() %}
+    {% if blocks|length %}
+        {% for block in blocks %}
+            {% switch block.type %}
+            {% case "stats" %}
+                {% include '_modules/stats.twig' with {
+                    title: block.statsTitle,
+                    stats: block.statsList,
+                } %}
+            {% case "foobar" %}
+                {{ block.foobarTitle }}
+            {% endswitch %}
+        {% endfor %}
+    {% endif %}
+
 {% endblock %}
