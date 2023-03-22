@@ -38,7 +38,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a3b59d45-52f0-4cd3-adff-6dba6a15c379
+            uid: b5dca5d6-b3a1-41aa-b5e3-b7f1f7b28c77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55186acf-b198-4d3b-b8de-b8f0faad938b
             userCondition: null
             warning: null
             width: 100
