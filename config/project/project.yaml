@@ -1,10 +1,19 @@
-dateModified: 1679444402
+dateModified: 1680050914
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  public:
+    hasUrls: true
+    name: Public
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
 meta:
   __names__:
+    3d5f9f28-5e41-424d-9e51-8c6791fe0561: 'Public Assets' # Public Assets
     5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: Title # Title
     6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5: 'Stats Table' # Stats Table
     7dd82277-b22c-4d92-993d-429ae8f92bf8: Common # Common
