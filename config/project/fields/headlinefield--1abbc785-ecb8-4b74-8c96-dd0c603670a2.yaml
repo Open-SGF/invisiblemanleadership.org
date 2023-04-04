@@ -1,0 +1,19 @@
+columnSuffix: anoidcjd
+contentColumnType: text
+fieldGroup: 7dd82277-b22c-4d92-993d-429ae8f92bf8 # Common
+handle: headlinefield
+instructions: null
+name: HeadlineField
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
