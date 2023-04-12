@@ -24,6 +24,7 @@
             - Note: The admin credentials will only be used on your local machine. They don't need to be unique or very secure.
     - `php craft migrate/all`
     - `php craft project-config/apply`
+    - `exit` to exit web container
 - Run `docker compose up -d` to spin up the rest of the containers
 - Start local development server for processing frontend assets
     - You'll have to execute the following command in the container using the strategies from above
