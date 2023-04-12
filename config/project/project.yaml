@@ -1,4 +1,4 @@
-dateModified: 1681257856
+dateModified: 1681259126
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -38,6 +38,10 @@ meta:
     f2206ae6-9a42-4b03-b6fd-c88253dff38c: 'Example Input' # Example Input
     f9911ada-d8f1-439c-a699-315a06fc42f8: 'Sub Heading' # Sub Heading
 plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   super-table:
     edition: standard
     enabled: true
