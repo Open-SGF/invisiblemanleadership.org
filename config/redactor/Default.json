@@ -15,5 +15,6 @@
     "video"
   ],
   "linkNewTab": true,
-  "toolbarFixed": true
+  "toolbarFixed": true,
+  "formatting": ["p","blockquote","pre","h2","h3","h4","h5","h6"]
 }

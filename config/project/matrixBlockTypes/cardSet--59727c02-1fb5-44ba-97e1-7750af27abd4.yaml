@@ -55,9 +55,16 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 64597417
+      changedFieldIndicator: 20240441
       columns:
         __assoc__:
+          -
+            - 1f8ded3d-464f-4677-a20e-a7a8ace195b3 # Image
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
           -
             - 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
             -
