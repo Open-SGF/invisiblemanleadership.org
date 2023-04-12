@@ -1,0 +1,178 @@
+field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
+fieldLayouts:
+  abe08ea0-69b8-4e05-b30a-39c1fd78c66a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b54fd2e5-a591-4b7e-b183-a34f283cc000 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ad918dd4-e37f-4fe1-a4cb-95eb79a23639
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3e6f485a-bd73-4877-a29e-329994951ea5 # Cards
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61ea9c7a-9438-4189-8743-721bf7334704
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a346e097-745f-4395-a326-411a4ff70c9d # Callout Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc7e98a3-5067-4d2d-9d1a-8e43d25b4717
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d55825dc-756f-45d8-9257-d41612c160ad
+        userCondition: null
+fields:
+  3e6f485a-bd73-4877-a29e-329994951ea5: # Cards
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: cards
+    instructions: null
+    name: Cards
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 64597417
+      columns:
+        __assoc__:
+          -
+            - 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - f9911ada-d8f1-439c-a699-315a06fc42f8 # Sub Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 698fb72b-9d3b-499e-a0c9-63bb555150b8 # Description
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_cards}}'
+      fieldLayout: row
+      maxRows: 4
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add a card'
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+  a346e097-745f-4395-a326-411a4ff70c9d: # Callout Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: calloutLink
+    instructions: null
+    name: 'Callout Link'
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: true
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: true
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  b54fd2e5-a591-4b7e-b183-a34f283cc000: # Heading
+    columnSuffix: clfvzkco
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cardSet
+name: 'Card Set'
+sortOrder: 2
