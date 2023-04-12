@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1174345831
+      changedFieldIndicator: 1077854666
       columns:
         __assoc__:
           -
@@ -73,7 +73,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_3_statslist}}'
+      contentTable: '{{%stc_2_statslist}}'
       fieldLayout: table
       maxRows: null
       minRows: null
@@ -86,4 +86,4 @@ fields:
     type: verbb\supertable\fields\SuperTableField
 handle: stats
 name: Stats
-sortOrder: 2
+sortOrder: 1
