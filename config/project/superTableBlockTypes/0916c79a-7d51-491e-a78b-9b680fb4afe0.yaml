@@ -1,70 +1,58 @@
-changedFieldIndicator: 1467575896
-field: 3e6f485a-bd73-4877-a29e-329994951ea5 # Cards
+changedFieldIndicator: 487683924
+field: 53daa5c7-eeda-48f6-bd2e-616d2964bdf3 # Timeline Event
 fieldLayouts:
-  c858d43e-0b31-4d24-a10f-bfb286306568:
+  a58db703-ddd9-42f6-a51d-a0ffa5320bbf:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 1f8ded3d-464f-4677-a20e-a7a8ace195b3 # Image
+            fieldUid: 29af3dd2-df2e-411f-89c9-feb3f9503bd1 # Timeline Event Pic
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4c5490da-a8d5-40d3-b7e9-05a7579f0a08
+            uid: 2ed11dab-5974-46e1-a62b-22821294765b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
+            fieldUid: a033c195-8d93-475f-afea-0a85c4653d16 # Timeline Event Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 77337e15-3eb8-46ba-b680-32384479b5fd
+            uid: 9d3df807-d3dd-4fe3-bb0c-b9404932c5e6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f9911ada-d8f1-439c-a699-315a06fc42f8 # Sub Heading
+            fieldUid: cceaf17c-574b-47c6-b387-2466777bbdd2 # Timeline Event Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ecc87d32-3ef8-408b-930c-04bcdc5e39d2
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 698fb72b-9d3b-499e-a0c9-63bb555150b8 # Description
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: db0d3355-4f08-43d9-bdcb-d1ddbbf4391f
+            uid: abd27622-2978-42de-84f8-a51b778a9506
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3bd775ba-9b66-44a2-b5f1-cf794acf1ee0
+        uid: 879058b5-6c6a-4c46-8653-aaec2aeebaa5
         userCondition: null
 fields:
-  1f8ded3d-464f-4677-a20e-a7a8ace195b3: # Image
+  29af3dd2-df2e-411f-89c9-feb3f9503bd1: # Timeline Event Pic
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: image
+    handle: timelineEventPic
     instructions: null
-    name: Image
+    name: 'Timeline Event Pic'
     searchable: false
     settings:
       allowSelfRelations: false
@@ -76,7 +64,7 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: 1
+      maxRelations: null
       minRelations: null
       previewMode: full
       restrictFiles: false
@@ -99,20 +87,21 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      sources: '*'
+      sources:
+        - 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       targetSiteId: null
       validateRelatedElements: false
       viewMode: list
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  55fa79ea-5553-42d9-8e46-93726cd9c7e3: # Heading
-    columnSuffix: gczbkkny
+  a033c195-8d93-475f-afea-0a85c4653d16: # Timeline Event Heading
+    columnSuffix: afunnbsx
     contentColumnType: text
     fieldGroup: null
-    handle: heading
-    instructions: null
-    name: Heading
+    handle: timelineEventHeading
+    instructions: 'Big event description. e.g. We got started'
+    name: 'Timeline Event Heading'
     searchable: false
     settings:
       byteLimit: null
@@ -121,18 +110,18 @@ fields:
       columnType: null
       initialRows: 4
       multiline: false
-      placeholder: null
+      placeholder: 'Event in the story'
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  698fb72b-9d3b-499e-a0c9-63bb555150b8: # Description
-    columnSuffix: qfwohqrj
+  cceaf17c-574b-47c6-b387-2466777bbdd2: # Timeline Event Text
+    columnSuffix: kuwpksgl
     contentColumnType: text
     fieldGroup: null
-    handle: description
-    instructions: null
-    name: Description
+    handle: timelineEventText
+    instructions: 'Put a paragraph to describe this part of the story here.'
+    name: 'Timeline Event Text'
     searchable: false
     settings:
       byteLimit: null
@@ -141,27 +130,7 @@ fields:
       columnType: null
       initialRows: 4
       multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  f9911ada-d8f1-439c-a699-315a06fc42f8: # Sub Heading
-    columnSuffix: hsmikpap
-    contentColumnType: text
-    fieldGroup: null
-    handle: subHeading
-    instructions: null
-    name: 'Sub Heading'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
+      placeholder: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
