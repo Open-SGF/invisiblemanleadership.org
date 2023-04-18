@@ -67,7 +67,7 @@ fields:
       allowUploads: true
       allowedKinds: null
       branchLimit: null
-      defaultUploadLocationSource: null
+      defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
@@ -77,7 +77,7 @@ fields:
       restrictFiles: false
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
-      restrictedLocationSource: null
+      restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       restrictedLocationSubpath: null
       selectionCondition:
         __assoc__:
