@@ -1,4 +1,4 @@
-dateModified: 1681801808
+dateModified: 1681860190
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -14,6 +14,7 @@ fs:
 meta:
   __names__:
     1abbc785-ecb8-4b74-8c96-dd0c603670a2: HeadlineField # HeadlineField
+    1bb81580-2e32-44b0-b00a-dacb0684232d: 'Background Image' # Background Image
     3a2fa0df-56c0-4d43-93c1-3bb6b4bdc664: 'Button 1' # Button 1
     3d5f9f28-5e41-424d-9e51-8c6791fe0561: 'Public Assets' # Public Assets
     5d17d3f8-7fec-4840-9a97-87bc6b12da1f: 'Button 4' # Button 4
