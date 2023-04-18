@@ -16,7 +16,7 @@ meta:
     1f8ded3d-464f-4677-a20e-a7a8ace195b3: Image # Image
     3d5f9f28-5e41-424d-9e51-8c6791fe0561: 'Public Assets' # Public Assets
     3e6f485a-bd73-4877-a29e-329994951ea5: Cards # Cards
-    5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: Title # Title
+    5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: Header # Header
     6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5: 'Stats Table' # Stats Table
     7dd82277-b22c-4d92-993d-429ae8f92bf8: Common # Common
     8fea7832-8658-4760-82a2-fea191ae7ac0: Blocks # Blocks
@@ -28,6 +28,8 @@ meta:
     665f6825-9a80-4138-a2bf-847c424ec67b: 'Stat Item' # Stat Item
     698fb72b-9d3b-499e-a0c9-63bb555150b8: Description # Description
     1467d9bb-2f87-4770-aa6e-91b0edc0353b: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
+    3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: subheader # subheader
+    4315b9f4-bbde-4b68-8395-340ea7f8203d: 'Stats Table' # Stats Table
     5335c937-f52e-46bc-b450-ce1c783b5042: Title # Title
     7593fe81-7596-4faa-bef4-aac9d25d34e2: Hero # Hero
     59727c02-1fb5-44ba-97e1-7750af27abd4: 'Card Set' # Card Set
@@ -38,6 +40,7 @@ meta:
     d5a81be2-83ca-46a2-a9d4-d97d68b8da6f: Home # Home
     e4c794ce-2250-48f7-86fe-cc451727b17f: 'Rich Text' # Rich Text
     e4f4af5c-69d6-4acc-9fc4-c70666b6c415: Simple # Simple
+    f848d360-bf9c-4006-a125-b2fc0d8f0d90: 'stat Item' # stat Item
     f2206ae6-9a42-4b03-b6fd-c88253dff38c: 'Example Input' # Example Input
     f9911ada-d8f1-439c-a699-315a06fc42f8: 'Sub Heading' # Sub Heading
 plugins:

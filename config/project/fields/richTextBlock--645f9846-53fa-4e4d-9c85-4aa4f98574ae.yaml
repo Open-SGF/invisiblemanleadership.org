@@ -1,0 +1,27 @@
+columnSuffix: mlrrteqj
+contentColumnType: text
+fieldGroup: 7dd82277-b22c-4d92-993d-429ae8f92bf8 # Common
+handle: richTextBlock
+instructions: null
+name: 'Rich Text block'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

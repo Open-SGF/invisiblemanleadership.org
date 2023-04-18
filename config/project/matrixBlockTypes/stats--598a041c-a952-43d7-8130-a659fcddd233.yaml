@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c # Title
+            fieldUid: 5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c # Header
             instructions: null
             label: null
             required: false
@@ -19,13 +19,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5 # Stats Table
+            fieldUid: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats Table
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 56ed0697-a87d-4cee-b887-34f57e7ab412
+            uid: 2dba800c-1816-489d-8298-38ddd6c2eed8
             userCondition: null
             warning: null
             width: 100
@@ -33,13 +33,13 @@ fieldLayouts:
         uid: 175280a3-b2ee-40d9-86c1-d0d481d1d81b
         userCondition: null
 fields:
-  5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: # Title
+  5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: # Header
     columnSuffix: tzjnqeju
     contentColumnType: text
     fieldGroup: null
-    handle: statsTitle
+    handle: statsHeader
     instructions: null
-    name: Title
+    name: Header
     searchable: false
     settings:
       byteLimit: null
@@ -53,33 +53,40 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5: # Stats Table
+  4315b9f4-bbde-4b68-8395-340ea7f8203d: # Stats Table
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: statsList
+    handle: statList
     instructions: null
     name: 'Stats Table'
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 2138738970
+      changedFieldIndicator: 818747258
       columns:
         __assoc__:
           -
-            - 665f6825-9a80-4138-a2bf-847c424ec67b # Stat Item
+            - f848d360-bf9c-4006-a125-b2fc0d8f0d90 # stat Item
             -
               __assoc__:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_2_statslist}}'
-      fieldLayout: table
-      maxRows: null
+          -
+            - 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # subheader
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_1_statlist}}'
+      fieldLayout: row
+      maxRows: 3
       minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: 'Add a stat'
+      selectionLabel: null
       staticField: null
     translationKeyFormat: null
     translationMethod: none
