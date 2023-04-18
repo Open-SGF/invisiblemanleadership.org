@@ -37,6 +37,7 @@
 - When other people have made changes to the contents or structure of the CMS, you will have
 to apply these changes to your local database. You can do this by executing the 
 following commands in your web container (enter your web container using the method detailed above):
+  - `composer install`
   - `php craft migrate/all`
   - `php craft project-config/apply`
 
