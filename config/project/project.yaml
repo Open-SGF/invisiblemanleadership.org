@@ -1,4 +1,4 @@
-dateModified: 1681259655
+dateModified: 1681860728
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -37,13 +37,14 @@ meta:
     c9ad660a-b24e-4c3d-b87f-685185cc32f2: 'Background Image' # Background Image
     d5a81be2-83ca-46a2-a9d4-d97d68b8da6f: Home # Home
     e4c794ce-2250-48f7-86fe-cc451727b17f: 'Rich Text' # Rich Text
+    e4f4af5c-69d6-4acc-9fc4-c70666b6c415: Simple # Simple
     f2206ae6-9a42-4b03-b6fd-c88253dff38c: 'Example Input' # Example Input
     f9911ada-d8f1-439c-a699-315a06fc42f8: 'Sub Heading' # Sub Heading
 plugins:
-  redactor:
+  ckeditor:
     edition: standard
     enabled: true
-    schemaVersion: 2.3.0
+    schemaVersion: 3.0.0.0
   super-table:
     edition: standard
     enabled: true
