@@ -1,122 +1,138 @@
 field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
 fieldLayouts:
-  abe08ea0-69b8-4e05-b30a-39c1fd78c66a:
+  c9f740fa-fe7c-4524-ba68-5db333bbc3e0:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: b54fd2e5-a591-4b7e-b183-a34f283cc000 # Heading
+            fieldUid: 1782a7b8-9a4c-46f5-a0b7-2588b902cf4b # Sponsor title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ad918dd4-e37f-4fe1-a4cb-95eb79a23639
+            uid: b324bab8-3ac3-4b53-ba61-29b6ba2a3437
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 3e6f485a-bd73-4877-a29e-329994951ea5 # Cards
+            fieldUid: 9bc92fc0-6cd2-4b8e-b4b6-83eb6d181113 # Sponsor Logo
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 61ea9c7a-9438-4189-8743-721bf7334704
+            uid: 8e0d6e6f-7d2d-4921-95a9-9ccd5d26fbaa
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: a346e097-745f-4395-a326-411a4ff70c9d # Callout Link
+            fieldUid: fdc3dce6-e5e4-41dc-a031-cbda756d5077 # Sponsor Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cc7e98a3-5067-4d2d-9d1a-8e43d25b4717
+            uid: 4b46bf48-1765-45c0-9fd0-2827931ce58e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: d55825dc-756f-45d8-9257-d41612c160ad
+        uid: 2f6722f7-e447-40db-b488-ab47620851dc
         userCondition: null
 fields:
-  3e6f485a-bd73-4877-a29e-329994951ea5: # Cards
+  9bc92fc0-6cd2-4b8e-b4b6-83eb6d181113: # Sponsor Logo
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: cards
+    handle: sponsorLogo
     instructions: null
-    name: Cards
+    name: 'Sponsor Logo'
     searchable: false
     settings:
-      blockTypeFields: 0
-      changedFieldIndicator: 963958245
-      columns:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
+      restrictedLocationSubpath: null
+      selectionCondition:
         __assoc__:
           -
-            - 1f8ded3d-464f-4677-a20e-a7a8ace195b3 # Image
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
+            - elementType
+            - craft\elements\Asset
           -
-            - 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
+            - fieldContext
+            - global
           -
-            - f9911ada-d8f1-439c-a699-315a06fc42f8 # Sub Heading
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 698fb72b-9d3b-499e-a0c9-63bb555150b8 # Description
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-      contentTable: '{{%stc_6_cards}}'
-      fieldLayout: row
-      maxRows: 4
-      minRows: null
-      propagationKeyFormat: null
-      propagationMethod: all
-      selectionLabel: 'Add a card'
-      staticField: null
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  1782a7b8-9a4c-46f5-a0b7-2588b902cf4b: # Sponsor title
+    columnSuffix: ljtesozj
+    contentColumnType: text
+    fieldGroup: null
+    handle: sponsorTitle
+    instructions: null
+    name: 'Sponsor title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: verbb\supertable\fields\SuperTableField
-  a346e097-745f-4395-a326-411a4ff70c9d: # Callout Link
+    type: craft\fields\PlainText
+  fdc3dce6-e5e4-41dc-a031-cbda756d5077: # Sponsor Link
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: calloutLink
+    handle: sponsorLink
     instructions: null
-    name: 'Callout Link'
+    name: 'Sponsor Link'
     searchable: false
     settings:
       allowCustomText: true
-      allowTarget: true
-      autoNoReferrer: true
+      allowTarget: false
+      autoNoReferrer: false
       customTextMaxLength: 0
-      customTextRequired: true
-      defaultLinkName: entry
+      customTextRequired: false
+      defaultLinkName: asset
       defaultText: ''
       enableAllLinkTypes: true
       enableAriaLabel: false
       enableElementCache: false
-      enableTitle: true
+      enableTitle: false
       typeSettings:
         asset:
           allowCrossSiteLink: false
@@ -160,26 +176,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: lenz\linkfield\fields\LinkField
-  b54fd2e5-a591-4b7e-b183-a34f283cc000: # Heading
-    columnSuffix: clfvzkco
-    contentColumnType: text
-    fieldGroup: null
-    handle: heading
-    instructions: null
-    name: Heading
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-handle: cardSet
-name: 'Card Set'
-sortOrder: 3
+handle: sponsor
+name: sponsor
+sortOrder: 5
