@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: ea4cc075-2720-4b5e-8764-d87555c1ba68 # Timeline Heading
+            fieldUid: ea4cc075-2720-4b5e-8764-d87555c1ba68 # Heading
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Timeline Element
+            fieldUid: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
             instructions: null
             label: null
             required: false
@@ -33,58 +33,58 @@ fieldLayouts:
         uid: 9772b8b7-0ed3-43b2-a223-699c645fdf2b
         userCondition: null
 fields:
-  0e32b2e3-7176-4e6b-b27a-a9d009520a89: # Timeline Element
+  0e32b2e3-7176-4e6b-b27a-a9d009520a89: # Events
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: timelineElement
+    handle: events
     instructions: null
-    name: 'Timeline Element'
+    name: Events
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 484166267
+      changedFieldIndicator: 476441703
       columns:
         __assoc__:
           -
-            - e0a28370-0059-4791-9624-2383f68b6460 # Timeline Event Heading
+            - e0a28370-0059-4791-9624-2383f68b6460 # Heading
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Timeline Event Image
+            - 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Image
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 4a8f835f-f041-427c-a837-acc1f3a8c973 # Timeline Event Text
+            - 4a8f835f-f041-427c-a837-acc1f3a8c973 # Text
             -
               __assoc__:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_6_timelineelement}}'
-      fieldLayout: table
+      contentTable: '{{%stc_8_events}}'
+      fieldLayout: row
       maxRows: null
       minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: null
+      selectionLabel: 'Add event'
       staticField: null
     translationKeyFormat: null
     translationMethod: none
     type: verbb\supertable\fields\SuperTableField
-  ea4cc075-2720-4b5e-8764-d87555c1ba68: # Timeline Heading
+  ea4cc075-2720-4b5e-8764-d87555c1ba68: # Heading
     columnSuffix: aydlsfcu
     contentColumnType: text
     fieldGroup: null
-    handle: timelineHeading
+    handle: heading
     instructions: 'Give the timeline a title heading here!'
-    name: 'Timeline Heading'
+    name: Heading
     searchable: false
     settings:
       byteLimit: null

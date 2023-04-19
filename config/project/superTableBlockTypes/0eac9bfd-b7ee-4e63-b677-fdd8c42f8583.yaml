@@ -1,5 +1,5 @@
-changedFieldIndicator: 1485814531
-field: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Timeline Element
+changedFieldIndicator: 113347381
+field: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
 fieldLayouts:
   365eadaf-c091-4d33-8a18-c80041211023:
     tabs:
@@ -8,7 +8,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: e0a28370-0059-4791-9624-2383f68b6460 # Timeline Event Heading
+            fieldUid: e0a28370-0059-4791-9624-2383f68b6460 # Heading
             instructions: null
             label: null
             required: false
@@ -20,7 +20,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Timeline Event Image
+            fieldUid: 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Image
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4a8f835f-f041-427c-a837-acc1f3a8c973 # Timeline Event Text
+            fieldUid: 4a8f835f-f041-427c-a837-acc1f3a8c973 # Text
             instructions: null
             label: null
             required: false
@@ -46,13 +46,13 @@ fieldLayouts:
         uid: 83fdee6a-a9b4-43af-86d1-40fdb25f17b3
         userCondition: null
 fields:
-  4a8f835f-f041-427c-a837-acc1f3a8c973: # Timeline Event Text
+  4a8f835f-f041-427c-a837-acc1f3a8c973: # Text
     columnSuffix: jfrozfkw
     contentColumnType: text
     fieldGroup: null
-    handle: timelineEventText
+    handle: text
     instructions: 'A few sentences to describe this part of the story, under the Timeline Event Heading'
-    name: 'Timeline Event Text'
+    name: Text
     searchable: false
     settings:
       availableTransforms: ''
@@ -70,13 +70,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\ckeditor\Field
-  736cdbf1-41f2-49c9-9d94-9599ac7f26d3: # Timeline Event Image
+  736cdbf1-41f2-49c9-9d94-9599ac7f26d3: # Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: timelineEventImage
+    handle: image
     instructions: 'A picture of or at least related to the timeline Event'
-    name: 'Timeline Event Image'
+    name: Image
     searchable: false
     settings:
       allowSelfRelations: false
@@ -119,13 +119,13 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  e0a28370-0059-4791-9624-2383f68b6460: # Timeline Event Heading
+  e0a28370-0059-4791-9624-2383f68b6460: # Heading
     columnSuffix: udxsloes
     contentColumnType: text
     fieldGroup: null
-    handle: timelineEventHeading
+    handle: heading
     instructions: 'A summary statement of a significant event in the story. '
-    name: 'Timeline Event Heading'
+    name: Heading
     searchable: false
     settings:
       byteLimit: null
