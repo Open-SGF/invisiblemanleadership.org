@@ -55,7 +55,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 420599995
+      changedFieldIndicator: 882406216
       columns:
         __assoc__:
           -
@@ -182,4 +182,4 @@ fields:
     type: craft\fields\PlainText
 handle: cardSet
 name: 'Card Set'
-sortOrder: 3
+sortOrder: 2

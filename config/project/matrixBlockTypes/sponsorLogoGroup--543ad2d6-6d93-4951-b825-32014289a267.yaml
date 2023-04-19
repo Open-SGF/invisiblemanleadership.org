@@ -43,7 +43,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 2122117183
+      changedFieldIndicator: 998478086
       columns:
         __assoc__:
           -
@@ -93,4 +93,4 @@ fields:
     type: craft\fields\PlainText
 handle: sponsorLogoGroup
 name: 'Sponsor Logo Group'
-sortOrder: 6
+sortOrder: 5

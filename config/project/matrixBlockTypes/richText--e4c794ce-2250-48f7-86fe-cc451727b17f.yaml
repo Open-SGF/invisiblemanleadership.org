@@ -1,4 +1,50 @@
 field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
+fieldLayouts:
+  b0e261b8-1dd4-4b6f-b0b6-2384c8746e6d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 425a4f8d-36e0-44c6-99f6-e1ad1f5e975c # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a58d6ee-ee13-4c7f-b82f-e69dcdbdd3e7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e6ae395c-0511-48ee-abb2-1367d0f1e922
+        userCondition: null
+fields:
+  425a4f8d-36e0-44c6-99f6-e1ad1f5e975c: # Text
+    columnSuffix: bhvuzvyy
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
+      columnType: text
+      defaultTransform: null
+      purifierConfig: null
+      purifyHtml: true
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
 handle: richText
 name: 'Rich Text'
-sortOrder: 4
+sortOrder: 3

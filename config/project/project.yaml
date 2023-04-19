@@ -1,4 +1,4 @@
-dateModified: 1681865915
+dateModified: 1681866341
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -29,8 +29,8 @@ meta:
     33b3fe32-761b-491c-bd8d-bbd1ee0e320a: Text # Text
     55fa79ea-5553-42d9-8e46-93726cd9c7e3: Heading # Heading
     67ca25e8-eb03-43cd-9222-e8c0d90a1331: 'Public Schema' # Public Schema
-    67ed6635-8436-4a01-b83a-782899c82e34: foobar # foobar
     89c63208-2f9e-4fb3-9562-c5c4a709733f: Title # Title
+    425a4f8d-36e0-44c6-99f6-e1ad1f5e975c: Text # Text
     543ad2d6-6d93-4951-b825-32014289a267: 'Sponsor Logo Group' # Sponsor Logo Group
     598a041c-a952-43d7-8130-a659fcddd233: 'Stat Group' # Stat Group
     645f9846-53fa-4e4d-9c85-4aa4f98574ae: 'Rich Text block' # Rich Text block

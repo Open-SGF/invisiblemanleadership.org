@@ -43,7 +43,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 2139671296
+      changedFieldIndicator: 1180622607
       columns:
         __assoc__:
           -
@@ -100,4 +100,4 @@ fields:
     type: craft\fields\PlainText
 handle: timeline
 name: Timeline
-sortOrder: 5
+sortOrder: 4
