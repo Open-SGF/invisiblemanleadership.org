@@ -1,85 +1,98 @@
-changedFieldIndicator: 1014086447
-field: 3e6f485a-bd73-4877-a29e-329994951ea5 # Cards
+changedFieldIndicator: 113347381
+field: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
 fieldLayouts:
-  c858d43e-0b31-4d24-a10f-bfb286306568:
+  365eadaf-c091-4d33-8a18-c80041211023:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 1f8ded3d-464f-4677-a20e-a7a8ace195b3 # Image
+            fieldUid: e0a28370-0059-4791-9624-2383f68b6460 # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4c5490da-a8d5-40d3-b7e9-05a7579f0a08
+            uid: 2d80226a-a29b-4a0d-bece-fad1b412a7e6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
+            fieldUid: 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 77337e15-3eb8-46ba-b680-32384479b5fd
+            uid: 7c99d9ff-ad62-46d3-bcb5-6e809dbc51f7
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f9911ada-d8f1-439c-a699-315a06fc42f8 # Sub Heading
+            fieldUid: 4a8f835f-f041-427c-a837-acc1f3a8c973 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ecc87d32-3ef8-408b-930c-04bcdc5e39d2
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 698fb72b-9d3b-499e-a0c9-63bb555150b8 # Description
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: db0d3355-4f08-43d9-bdcb-d1ddbbf4391f
+            uid: 8d4f91d4-de80-43e0-a25f-88f72f700633
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3bd775ba-9b66-44a2-b5f1-cf794acf1ee0
+        uid: 83fdee6a-a9b4-43af-86d1-40fdb25f17b3
         userCondition: null
 fields:
-  1f8ded3d-464f-4677-a20e-a7a8ace195b3: # Image
+  4a8f835f-f041-427c-a837-acc1f3a8c973: # Text
+    columnSuffix: jfrozfkw
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'A few sentences to describe this part of the story, under the Timeline Event Heading'
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
+      columnType: text
+      defaultTransform: null
+      purifierConfig: null
+      purifyHtml: true
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  736cdbf1-41f2-49c9-9d94-9599ac7f26d3: # Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: image
-    instructions: null
+    instructions: 'A picture of or at least related to the timeline Event'
     name: Image
     searchable: false
     settings:
       allowSelfRelations: false
       allowSubfolders: false
       allowUploads: true
-      allowedKinds: null
+      allowedKinds:
+        - image
       branchLimit: null
       defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: 1
+      maxRelations: null
       minRelations: null
       previewMode: full
-      restrictFiles: false
+      restrictFiles: true
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
@@ -106,53 +119,13 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  55fa79ea-5553-42d9-8e46-93726cd9c7e3: # Heading
-    columnSuffix: gczbkkny
+  e0a28370-0059-4791-9624-2383f68b6460: # Heading
+    columnSuffix: udxsloes
     contentColumnType: text
     fieldGroup: null
     handle: heading
-    instructions: null
+    instructions: 'A summary statement of a significant event in the story. '
     name: Heading
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  698fb72b-9d3b-499e-a0c9-63bb555150b8: # Description
-    columnSuffix: qfwohqrj
-    contentColumnType: text
-    fieldGroup: null
-    handle: description
-    instructions: null
-    name: Description
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  f9911ada-d8f1-439c-a699-315a06fc42f8: # Sub Heading
-    columnSuffix: hsmikpap
-    contentColumnType: text
-    fieldGroup: null
-    handle: subHeading
-    instructions: null
-    name: 'Sub Heading'
     searchable: false
     settings:
       byteLimit: null

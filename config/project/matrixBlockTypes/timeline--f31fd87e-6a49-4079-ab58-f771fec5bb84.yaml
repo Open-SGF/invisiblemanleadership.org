@@ -1,45 +1,90 @@
 field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
 fieldLayouts:
-  6c30b640-4d11-4014-859d-949e62603110:
+  6d6378eb-a26c-40da-be7b-8d6606f0d285:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c # Header
+            fieldUid: ea4cc075-2720-4b5e-8764-d87555c1ba68 # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3e2506ca-917a-44e2-aa45-f67b635a4511
+            uid: 3bbc7599-5783-4771-ab01-77a7eca099f2
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats
+            fieldUid: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2dba800c-1816-489d-8298-38ddd6c2eed8
+            uid: 595db118-cd74-49a1-9746-c9c3e1bc1bab
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 175280a3-b2ee-40d9-86c1-d0d481d1d81b
+        uid: 9772b8b7-0ed3-43b2-a223-699c645fdf2b
         userCondition: null
 fields:
-  5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: # Header
-    columnSuffix: tzjnqeju
+  0e32b2e3-7176-4e6b-b27a-a9d009520a89: # Events
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: events
+    instructions: null
+    name: Events
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 476441703
+      columns:
+        __assoc__:
+          -
+            - e0a28370-0059-4791-9624-2383f68b6460 # Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Image
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 4a8f835f-f041-427c-a837-acc1f3a8c973 # Text
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_8_events}}'
+      fieldLayout: row
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add event'
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+  ea4cc075-2720-4b5e-8764-d87555c1ba68: # Heading
+    columnSuffix: aydlsfcu
     contentColumnType: text
     fieldGroup: null
-    handle: statsHeader
-    instructions: null
-    name: Header
+    handle: heading
+    instructions: 'Give the timeline a title heading here!'
+    name: Heading
     searchable: false
     settings:
       byteLimit: null
@@ -53,44 +98,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  4315b9f4-bbde-4b68-8395-340ea7f8203d: # Stats
-    columnSuffix: null
-    contentColumnType: string
-    fieldGroup: null
-    handle: stats
-    instructions: null
-    name: Stats
-    searchable: false
-    settings:
-      blockTypeFields: 0
-      changedFieldIndicator: 1688817261
-      columns:
-        __assoc__:
-          -
-            - f848d360-bf9c-4006-a125-b2fc0d8f0d90 # Stat
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # Text
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-      contentTable: '{{%stc_2_stats}}'
-      fieldLayout: row
-      maxRows: 3
-      minRows: null
-      propagationKeyFormat: null
-      propagationMethod: all
-      selectionLabel: 'Add stat'
-      staticField: null
-    translationKeyFormat: null
-    translationMethod: none
-    type: verbb\supertable\fields\SuperTableField
-handle: statGroup
-name: 'Stat Group'
-sortOrder: 1
+handle: timeline
+name: Timeline
+sortOrder: 4
