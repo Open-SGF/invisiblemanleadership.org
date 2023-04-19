@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats Table
+            fieldUid: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats
             instructions: null
             label: null
             required: false
@@ -53,44 +53,44 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  4315b9f4-bbde-4b68-8395-340ea7f8203d: # Stats Table
+  4315b9f4-bbde-4b68-8395-340ea7f8203d: # Stats
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: statList
+    handle: stats
     instructions: null
-    name: 'Stats Table'
+    name: Stats
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 818747258
+      changedFieldIndicator: 1084424434
       columns:
         __assoc__:
           -
-            - f848d360-bf9c-4006-a125-b2fc0d8f0d90 # stat Item
+            - f848d360-bf9c-4006-a125-b2fc0d8f0d90 # Stat
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # subheader
+            - 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # Text
             -
               __assoc__:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_1_statlist}}'
+      contentTable: '{{%stc_2_stats}}'
       fieldLayout: row
       maxRows: 3
       minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: null
+      selectionLabel: 'Add stat'
       staticField: null
     translationKeyFormat: null
     translationMethod: none
     type: verbb\supertable\fields\SuperTableField
-handle: stats
-name: Stats
+handle: statGroup
+name: 'Stat Group'
 sortOrder: 1

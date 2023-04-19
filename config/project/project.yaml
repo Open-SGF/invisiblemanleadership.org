@@ -1,4 +1,4 @@
-dateModified: 1681860728
+dateModified: 1681862872
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -24,12 +24,13 @@ meta:
     33b3fe32-761b-491c-bd8d-bbd1ee0e320a: Text # Text
     55fa79ea-5553-42d9-8e46-93726cd9c7e3: Heading # Heading
     89c63208-2f9e-4fb3-9562-c5c4a709733f: Title # Title
-    598a041c-a952-43d7-8130-a659fcddd233: Stats # Stats
+    598a041c-a952-43d7-8130-a659fcddd233: 'Stat Group' # Stat Group
+    645f9846-53fa-4e4d-9c85-4aa4f98574ae: 'Rich Text block' # Rich Text block
     665f6825-9a80-4138-a2bf-847c424ec67b: 'Stat Item' # Stat Item
     698fb72b-9d3b-499e-a0c9-63bb555150b8: Description # Description
     1467d9bb-2f87-4770-aa6e-91b0edc0353b: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
-    3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: subheader # subheader
-    4315b9f4-bbde-4b68-8395-340ea7f8203d: 'Stats Table' # Stats Table
+    3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: Text # Text
+    4315b9f4-bbde-4b68-8395-340ea7f8203d: Stats # Stats
     5335c937-f52e-46bc-b450-ce1c783b5042: Title # Title
     7593fe81-7596-4faa-bef4-aac9d25d34e2: Hero # Hero
     59727c02-1fb5-44ba-97e1-7750af27abd4: 'Card Set' # Card Set
@@ -40,7 +41,7 @@ meta:
     d5a81be2-83ca-46a2-a9d4-d97d68b8da6f: Home # Home
     e4c794ce-2250-48f7-86fe-cc451727b17f: 'Rich Text' # Rich Text
     e4f4af5c-69d6-4acc-9fc4-c70666b6c415: Simple # Simple
-    f848d360-bf9c-4006-a125-b2fc0d8f0d90: 'stat Item' # stat Item
+    f848d360-bf9c-4006-a125-b2fc0d8f0d90: Stat # Stat
     f2206ae6-9a42-4b03-b6fd-c88253dff38c: 'Example Input' # Example Input
     f9911ada-d8f1-439c-a699-315a06fc42f8: 'Sub Heading' # Sub Heading
 plugins:

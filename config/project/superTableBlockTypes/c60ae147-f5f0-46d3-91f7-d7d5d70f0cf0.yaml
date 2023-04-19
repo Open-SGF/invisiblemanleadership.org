@@ -1,5 +1,5 @@
-changedFieldIndicator: 1228385566
-field: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats Table
+changedFieldIndicator: 181648762
+field: 4315b9f4-bbde-4b68-8395-340ea7f8203d # Stats
 fieldLayouts:
   783c3427-e499-41d8-b5d4-5fc3facb8c1f:
     tabs:
@@ -8,7 +8,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: f848d360-bf9c-4006-a125-b2fc0d8f0d90 # stat Item
+            fieldUid: f848d360-bf9c-4006-a125-b2fc0d8f0d90 # Stat
             instructions: null
             label: null
             required: false
@@ -20,7 +20,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # subheader
+            fieldUid: 3686e5d4-d982-4c5e-a623-fe9f1ec6aba8 # Text
             instructions: null
             label: null
             required: false
@@ -34,13 +34,13 @@ fieldLayouts:
         uid: fbc56c57-89cb-44b9-861f-bf7aba538cea
         userCondition: null
 fields:
-  3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: # subheader
+  3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: # Text
     columnSuffix: jukdybog
     contentColumnType: text
     fieldGroup: null
-    handle: subheader
+    handle: text
     instructions: null
-    name: subheader
+    name: Text
     searchable: false
     settings:
       byteLimit: null
@@ -54,13 +54,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f848d360-bf9c-4006-a125-b2fc0d8f0d90: # stat Item
+  f848d360-bf9c-4006-a125-b2fc0d8f0d90: # Stat
     columnSuffix: xawsapta
     contentColumnType: text
     fieldGroup: null
-    handle: statItem
+    handle: stat
     instructions: null
-    name: 'stat Item'
+    name: Stat
     searchable: false
     settings:
       byteLimit: null
