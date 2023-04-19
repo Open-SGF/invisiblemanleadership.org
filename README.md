@@ -41,6 +41,10 @@ following commands in your web container (enter your web container using the met
   - `php craft migrate/all`
   - `php craft project-config/apply`
 
+## Shutting down the project
+- Cancel any terminal running `npm run dev`
+- Stop the docker containers `docker compose stop`
+
 ## Troubleshooting
 - Permission denied error when running `composer install`
     - If your host machine is linux it's possible that the user in the docker containers is different than the one on your host machine. You can add the env variables `WWWGROUP` and `WWWUSER` to `.env`. You'll need to set these values to be your host systems user id and group id. You can get these values with the `id` command. Make sure to rebuild your containers with `docker compose build --no-cache` afterwards.
