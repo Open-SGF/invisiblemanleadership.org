@@ -1,4 +1,4 @@
-dateModified: 1681862872
+dateModified: 1681862932
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -11,6 +11,10 @@ fs:
       path: '@webroot/assets'
     type: craft\fs\Local
     url: '@web/assets'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     1f8ded3d-464f-4677-a20e-a7a8ace195b3: Image # Image
@@ -23,6 +27,7 @@ meta:
     16c32343-c234-4479-a53b-8de7cad7cf71: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
     33b3fe32-761b-491c-bd8d-bbd1ee0e320a: Text # Text
     55fa79ea-5553-42d9-8e46-93726cd9c7e3: Heading # Heading
+    67ca25e8-eb03-43cd-9222-e8c0d90a1331: 'Public Schema'
     89c63208-2f9e-4fb3-9562-c5c4a709733f: Title # Title
     598a041c-a952-43d7-8130-a659fcddd233: 'Stat Group' # Stat Group
     645f9846-53fa-4e4d-9c85-4aa4f98574ae: 'Rich Text block' # Rich Text block
