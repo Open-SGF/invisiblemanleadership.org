@@ -1,80 +1,125 @@
-field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
+changedFieldIndicator: 2040472353
+field: 3cb37d07-55f6-4ffd-aaf4-b7b4e763c53c # Logos
 fieldLayouts:
-  df64cf60-86eb-4394-aa31-168b24c23152:
+  d8a36691-2861-4c39-aa86-7674bcc927d1:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 89c63208-2f9e-4fb3-9562-c5c4a709733f # Title
+            fieldUid: d3107f36-78e5-4715-b75f-8e03700aaf81 # Logo
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 593b5de2-b31d-443a-b67b-7088969a660e
+            uid: 12234d98-e727-43aa-a4b1-b3a5631ec241
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: c9ad660a-b24e-4c3d-b87f-685185cc32f2 # Background Image
+            fieldUid: d4f26e3f-b377-4e05-b84c-dbf98e64f826 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e0036925-d405-4fb6-a7e6-e83ab7198aca
+            uid: 75a51b37-8917-4ab6-a800-16d055dce60e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c67e22e8-c42f-41b9-93e2-fa2b1f0fa0a4
+        uid: 545a2159-d005-4b76-b4a7-c05076e83089
         userCondition: null
 fields:
-  89c63208-2f9e-4fb3-9562-c5c4a709733f: # Title
-    columnSuffix: bhthqgdl
-    contentColumnType: text
-    fieldGroup: null
-    handle: foobarTitle
-    instructions: null
-    name: Title
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: 'Placeholder Text'
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  c9ad660a-b24e-4c3d-b87f-685185cc32f2: # Background Image
+  d4f26e3f-b377-4e05-b84c-dbf98e64f826: # Link
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: backgroundImage
+    handle: customLink
     instructions: null
-    name: 'Background Image'
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: true
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  d3107f36-78e5-4715-b75f-8e03700aaf81: # Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logo
+    instructions: null
+    name: Logo
     searchable: false
     settings:
       allowSelfRelations: false
       allowSubfolders: false
       allowUploads: true
-      allowedKinds: null
+      allowedKinds:
+        - image
       branchLimit: null
       defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: null
+      maxRelations: 1
       minRelations: null
       previewMode: full
-      restrictFiles: false
+      restrictFiles: true
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
@@ -101,6 +146,3 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-handle: foobar
-name: foobar
-sortOrder: 2
