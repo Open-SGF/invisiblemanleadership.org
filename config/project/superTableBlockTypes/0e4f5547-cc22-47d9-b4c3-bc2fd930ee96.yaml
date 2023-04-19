@@ -1,82 +1,109 @@
 changedFieldIndicator: null
-field: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
+field: 3cb37d07-55f6-4ffd-aaf4-b7b4e763c53c # Logos
 fieldLayouts:
-  365eadaf-c091-4d33-8a18-c80041211023:
+  d8a36691-2861-4c39-aa86-7674bcc927d1:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: e0a28370-0059-4791-9624-2383f68b6460 # Heading
+            fieldUid: d3107f36-78e5-4715-b75f-8e03700aaf81 # Logo
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2d80226a-a29b-4a0d-bece-fad1b412a7e6
+            uid: 12234d98-e727-43aa-a4b1-b3a5631ec241
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 736cdbf1-41f2-49c9-9d94-9599ac7f26d3 # Image
+            fieldUid: d4f26e3f-b377-4e05-b84c-dbf98e64f826 # Link
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7c99d9ff-ad62-46d3-bcb5-6e809dbc51f7
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 4a8f835f-f041-427c-a837-acc1f3a8c973 # Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8d4f91d4-de80-43e0-a25f-88f72f700633
+            uid: 75a51b37-8917-4ab6-a800-16d055dce60e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 83fdee6a-a9b4-43af-86d1-40fdb25f17b3
+        uid: 545a2159-d005-4b76-b4a7-c05076e83089
         userCondition: null
 fields:
-  4a8f835f-f041-427c-a837-acc1f3a8c973: # Text
-    columnSuffix: jfrozfkw
-    contentColumnType: text
-    fieldGroup: null
-    handle: text
-    instructions: 'A few sentences to describe this part of the story, under the Timeline Event Heading'
-    name: Text
-    searchable: false
-    settings:
-      availableTransforms: ''
-      availableVolumes: '*'
-      ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
-      columnType: text
-      defaultTransform: null
-      purifierConfig: null
-      purifyHtml: true
-      removeEmptyTags: false
-      removeInlineStyles: false
-      removeNbsp: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\ckeditor\Field
-  736cdbf1-41f2-49c9-9d94-9599ac7f26d3: # Image
+  d4f26e3f-b377-4e05-b84c-dbf98e64f826: # Link
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: image
-    instructions: 'A picture of or at least related to the timeline Event'
-    name: Image
+    handle: customLink
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: true
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  d3107f36-78e5-4715-b75f-8e03700aaf81: # Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logo
+    instructions: null
+    name: Logo
     searchable: false
     settings:
       allowSelfRelations: false
@@ -89,7 +116,7 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: null
+      maxRelations: 1
       minRelations: null
       previewMode: full
       restrictFiles: true
@@ -119,23 +146,3 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  e0a28370-0059-4791-9624-2383f68b6460: # Heading
-    columnSuffix: udxsloes
-    contentColumnType: text
-    fieldGroup: null
-    handle: heading
-    instructions: 'A summary statement of a significant event in the story. '
-    name: Heading
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
