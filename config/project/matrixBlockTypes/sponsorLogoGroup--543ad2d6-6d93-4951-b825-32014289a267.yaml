@@ -43,7 +43,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 998478086
+      changedFieldIndicator: 1929585602
       columns:
         __assoc__:
           -
@@ -60,7 +60,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_10_logos}}'
+      contentTable: '{{%stc_7_logos}}'
       fieldLayout: row
       maxRows: null
       minRows: null
