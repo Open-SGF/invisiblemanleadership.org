@@ -55,7 +55,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1876170381
+      changedFieldIndicator: 862831404
       columns:
         __assoc__:
           -
@@ -86,7 +86,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_4_cards}}'
+      contentTable: '{{%stc_3_cards}}'
       fieldLayout: row
       maxRows: 4
       minRows: null

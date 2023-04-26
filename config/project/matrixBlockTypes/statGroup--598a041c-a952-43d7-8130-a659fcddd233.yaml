@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 67735183
+      changedFieldIndicator: 840022332
       columns:
         __assoc__:
           -
@@ -80,7 +80,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_2_stats}}'
+      contentTable: '{{%stc_1_stats}}'
       fieldLayout: row
       maxRows: 3
       minRows: null
