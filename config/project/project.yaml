@@ -32,6 +32,8 @@ meta:
     55fa79ea-5553-42d9-8e46-93726cd9c7e3: Heading # Heading
     67ca25e8-eb03-43cd-9222-e8c0d90a1331: 'Public Schema' # Public Schema
     89c63208-2f9e-4fb3-9562-c5c4a709733f: Title # Title
+    91b8faeb-a94e-4e56-bc59-951b1d62a176: Pictures # Pictures
+    235be42c-89e7-4ee3-9ee1-dfb27163a43e: Logo # Logo
     236f1e3d-b5b7-48b9-9407-f06fa45d0d13: 'Tab Title' # Tab Title
     425a4f8d-36e0-44c6-99f6-e1ad1f5e975c: Text # Text
     543ad2d6-6d93-4951-b825-32014289a267: 'Sponsor Logo Group' # Sponsor Logo Group
@@ -40,12 +42,14 @@ meta:
     665f6825-9a80-4138-a2bf-847c424ec67b: 'Stat Item' # Stat Item
     698fb72b-9d3b-499e-a0c9-63bb555150b8: Description # Description
     736cdbf1-41f2-49c9-9d94-9599ac7f26d3: Image # Image
+    0860b495-70e4-4cb4-87fa-049ae655ddc9: 'Hero Field' # Hero Field
     1467d9bb-2f87-4770-aa6e-91b0edc0353b: 'The Invisible Man Leadership Program' # The Invisible Man Leadership Program
     1782a7b8-9a4c-46f5-a0b7-2588b902cf4b: Heading # Heading
     3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: Text # Text
     3807ab11-9fdf-49ac-9af0-9ca3e77892fd: Image # Image
     4117a0d7-1077-4b6b-aee2-49fe2f067165: photos # photos
     4315b9f4-bbde-4b68-8395-340ea7f8203d: Stats # Stats
+    4484d532-0100-495e-ac29-1e08c80ef497: 'Hero Text' # Hero Text
     5335c937-f52e-46bc-b450-ce1c783b5042: Title # Title
     7593fe81-7596-4faa-bef4-aac9d25d34e2: Hero # Hero
     59727c02-1fb5-44ba-97e1-7750af27abd4: 'Card Set' # Card Set
@@ -53,6 +57,7 @@ meta:
     b7cfb2f9-efc2-4e6f-b8a8-3d28d9d92e2f: Home # Home
     b54fd2e5-a591-4b7e-b183-a34f283cc000: Heading # Heading
     b119d50f-a2f7-402f-a1e3-54e0e9d39930: 'Public Schema' # Public Schema
+    b14585f2-af69-49dd-af4c-8866c1976ec8: Nav # Nav
     c7f53792-f2df-4327-aee5-d2e5f0335b95: 'Tab Callout' # Tab Callout
     c9ad660a-b24e-4c3d-b87f-685185cc32f2: 'Background Image' # Background Image
     d4f26e3f-b377-4e05-b84c-dbf98e64f826: Link # Link

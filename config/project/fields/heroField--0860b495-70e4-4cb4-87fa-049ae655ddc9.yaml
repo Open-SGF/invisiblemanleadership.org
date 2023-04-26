@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7dd82277-b22c-4d92-993d-429ae8f92bf8 # Common
+handle: heroField
+instructions: 'This will be the Hero Section.'
+name: 'Hero Field'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 717601122
+  contentTable: '{{%stc_herofield}}'
+  fieldLayout: table
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
