@@ -10,52 +10,50 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .tab-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    align-self: flex-start;
+    align-items: center;
 
     padding-left: 10px;
 }
 
 .tab {
-    padding: 10px 20px 15px 20px;
+    padding: 10px 10px 40px 10px;
     width: 150px;
     border: 1px solid black;
     border-radius: 8px;
     background-color: white;
 
     position: relative;
+    top: 35px;
+    font-size: 1.2rem;
+}
+
+.active-tab {
+    padding-top: 15px;
+    padding-bottom: 35px;
     top: 10px;
-
-}
-
-#tab-one {
-    z-index: -3;
-}
-
-#tab-two {
-    z-index: -2;
-    right: 20px;
-}
-
-#tab-three {
-    z-index: -1;
-    right: 40px;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 .content-container {
+    display: none;
+}
+
+.active-content {
+    z-index: 1;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    padding: 50px;
     width: 600px;
     border: 1px solid black;
     border-radius: 8px;
@@ -63,16 +61,30 @@
 }
 
 .content-image {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     padding: 20px;
 
     border: 1px solid red;
 }
 
+.text-container > h3 {
+    padding: 0 20px 20px 20px;
+}
+
+.text-container > p {
+    padding: 0 20px 10px 20px;
+}
+
+.text-container > p:last-of-type {
+    padding-bottom: 0;
+}
+
 .cta-image {
-    width: 30px;
-    height: 10px;
+    display: inline-block;
+    padding: 0;
+    width: 80px;
+    height: 1.5rem;
 
     border: 1px solid red;
 }
