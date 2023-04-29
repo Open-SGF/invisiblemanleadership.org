@@ -1,4 +1,4 @@
-dateModified: 1682468887
+dateModified: 1682734205
 email:
   fromEmail: me@levizitting.com
   fromName: 'The Invisible Man Leadership Program'
@@ -52,6 +52,7 @@ meta:
     a346e097-745f-4395-a326-411a4ff70c9d: 'Callout Link' # Callout Link
     b7cfb2f9-efc2-4e6f-b8a8-3d28d9d92e2f: Home # Home
     b54fd2e5-a591-4b7e-b183-a34f283cc000: Heading # Heading
+    b119d50f-a2f7-402f-a1e3-54e0e9d39930: 'Public Schema' # Public Schema
     c7f53792-f2df-4327-aee5-d2e5f0335b95: 'Tab Callout' # Tab Callout
     c9ad660a-b24e-4c3d-b87f-685185cc32f2: 'Background Image' # Background Image
     d4f26e3f-b377-4e05-b84c-dbf98e64f826: Link # Link
