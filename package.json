@@ -19,6 +19,11 @@
   "homepage": "https://github.com/Open-SGF/invisiblemanleadership.org#readme",
   "devDependencies": {
     "@vitejs/plugin-legacy": "^4.0.1",
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "sass": "^1.58.1",
     "vite": "^4.1.1",
     "vite-plugin-restart": "^0.3.1"
