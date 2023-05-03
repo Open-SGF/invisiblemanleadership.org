@@ -1,3 +1,3 @@
-import { Stats } from './stats';
+import { Stats } from './stats'
 
-export const moduleFactories = [Stats];
+export const moduleFactories = [Stats]
