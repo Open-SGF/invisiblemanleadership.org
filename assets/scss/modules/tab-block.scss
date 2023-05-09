@@ -25,6 +25,7 @@
 .tab {
     padding: 10px 10px 40px 10px;
     width: 150px;
+    height: 70px;
     border: 1px solid black;
     border-radius: 8px;
     background-color: hsla(0, 0%, 80%, 0.90);
@@ -36,8 +37,6 @@
 }
 
 .active-tab {
-    padding-top: 15px;
-    padding-bottom: 35px;
     top: 10px;
     font-size: 1.6rem;
     text-align: center;
