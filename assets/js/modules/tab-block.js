@@ -7,12 +7,10 @@ export class TabBlock extends Module {
 
     mounted() {
         for (const tabBlock of this.elements) {
-            console.log(tabBlock);
             const tabs = tabBlock.querySelectorAll('.js-tab-block-tab');
             const tabContents = tabBlock.querySelectorAll('.js-tab-block-content');
 
             for (let index = 0; index < tabs.length; index++) {
-                console.log(index);
                 tabs[index].addEventListener('click', () => {
                    this.removeActive(tabs, tabContents);
                    this.addActive(tabs[index], tabContents[index]);
