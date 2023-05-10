@@ -1,6 +1,7 @@
 {% extends '_base.twig' %}
 
 {% block main %}
+    {% include '_modules/tab-block.twig' %}
     {% if entry.exampleInput %}
         {{ entry.exampleInput }}
     {% endif %}
