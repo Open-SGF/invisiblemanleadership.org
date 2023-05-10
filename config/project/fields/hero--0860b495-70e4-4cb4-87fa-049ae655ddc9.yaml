@@ -1,0 +1,44 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7dd82277-b22c-4d92-993d-429ae8f92bf8 # Common
+handle: hero
+instructions: null
+name: Hero
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 2067519394
+  columns:
+    __assoc__:
+      -
+        - b14585f2-af69-49dd-af4c-8866c1976ec8 # Heading
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 4484d532-0100-495e-ac29-1e08c80ef497 # Link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 235be42c-89e7-4ee3-9ee1-dfb27163a43e # Images
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_hero}}'
+  fieldLayout: row
+  maxRows: 1
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: 'Add Hero'
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
