@@ -35,13 +35,12 @@ fields:
       ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
       columnType: text
       defaultTransform: null
+      enableSourceEditingForNonAdmins: false
       purifierConfig: null
       purifyHtml: true
-      removeEmptyTags: false
-      removeInlineStyles: false
-      removeNbsp: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
+      showWordCount: false
     translationKeyFormat: null
     translationMethod: none
     type: craft\ckeditor\Field
