@@ -19,7 +19,7 @@
 - Run the following commands in the `web` container
     - `composer install`
     - `npm install`
-    - `npm prepare`
+    - `npm run prepare`
     - `php craft install`
         - This command will prompt you for several values. Go with the default for all of these except the admin credentials (username, email, and password none of which have a default)
             - Note: The admin credentials will only be used on your local machine. They don't need to be unique or very secure.
