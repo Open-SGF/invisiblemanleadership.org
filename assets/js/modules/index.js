@@ -1,4 +1,5 @@
-import { Stats } from './stats';
-import { TabBlock } from './tab-block';
+import { Stats } from './stats'
+import { TabBlock } from './tab-block'
 
-export const moduleFactories = [Stats, TabBlock];
+/** @type {typeof import('../core/module').Module[]} */
+export const moduleFactories = [Stats, TabBlock]

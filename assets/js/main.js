@@ -1,9 +1,8 @@
 import '../scss/main.scss'
 
 import { moduleFactories } from './modules'
+import { ModuleBuilder } from './core/module'
 
-const modules = moduleFactories.map((ModuleFactory) => new ModuleFactory())
+const moduleBuilder = new ModuleBuilder(moduleFactories)
 
-for (const mod of modules) {
-  mod.initialize()
-}
+moduleBuilder.build()
