@@ -32,6 +32,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 0860b495-70e4-4cb4-87fa-049ae655ddc9 # Hero
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b43336da-4e93-4c06-bc64-b6d5eacf2b87
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: f2206ae6-9a42-4b03-b6fd-c88253dff38c # Example Input
             instructions: null
             label: null

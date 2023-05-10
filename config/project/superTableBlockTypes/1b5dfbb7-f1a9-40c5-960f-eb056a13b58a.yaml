@@ -1,5 +1,5 @@
-changedFieldIndicator: 1951279270
-field: 0860b495-70e4-4cb4-87fa-049ae655ddc9 # Hero Field
+changedFieldIndicator: 1689943681
+field: 0860b495-70e4-4cb4-87fa-049ae655ddc9 # Hero
 fieldLayouts:
   8d901d98-c722-4cee-9ade-b4dec3fece53:
     tabs:
@@ -8,7 +8,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: b14585f2-af69-49dd-af4c-8866c1976ec8 # Nav
+            fieldUid: b14585f2-af69-49dd-af4c-8866c1976ec8 # Heading
             instructions: null
             label: null
             required: true
@@ -20,10 +20,10 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4484d532-0100-495e-ac29-1e08c80ef497 # Hero Text
+            fieldUid: 4484d532-0100-495e-ac29-1e08c80ef497 # Link
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2dc5668e-039c-49a3-82f0-822ed1c28f32
@@ -32,7 +32,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 235be42c-89e7-4ee3-9ee1-dfb27163a43e # Logo
+            fieldUid: 235be42c-89e7-4ee3-9ee1-dfb27163a43e # Images
             instructions: null
             label: null
             required: false
@@ -42,44 +42,33 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 91b8faeb-a94e-4e56-bc59-951b1d62a176 # Pictures
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: bedd6b4e-073b-4310-92a4-4f7e5ea262f7
-            userCondition: null
-            warning: null
-            width: 100
         name: Content
         uid: 6556c14b-43e7-4cb0-a500-7bb2a2c85b4d
         userCondition: null
 fields:
-  91b8faeb-a94e-4e56-bc59-951b1d62a176: # Pictures
+  235be42c-89e7-4ee3-9ee1-dfb27163a43e: # Images
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: pictures
-    instructions: 'This will be the other images you want on the hero.'
-    name: Pictures
+    handle: images
+    instructions: null
+    name: Images
     searchable: false
     settings:
       allowSelfRelations: false
       allowSubfolders: false
       allowUploads: true
-      allowedKinds: null
+      allowedKinds:
+        - image
       branchLimit: null
       defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: null
-      minRelations: null
+      maxRelations: 4
+      minRelations: 4
       previewMode: full
-      restrictFiles: false
+      restrictFiles: true
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
@@ -96,7 +85,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       sources: '*'
@@ -106,81 +95,76 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  235be42c-89e7-4ee3-9ee1-dfb27163a43e: # Logo
-    columnSuffix: null
-    contentColumnType: string
-    fieldGroup: null
-    handle: logo
-    instructions: 'This will be the logo image (Must be an Image)'
-    name: Logo
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      allowSubfolders: false
-      allowUploads: true
-      allowedKinds: null
-      branchLimit: null
-      defaultUploadLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
-      defaultUploadLocationSubpath: null
-      localizeRelations: false
-      maintainHierarchy: false
-      maxRelations: null
-      minRelations: null
-      previewMode: full
-      restrictFiles: false
-      restrictLocation: false
-      restrictedDefaultUploadSubpath: null
-      restrictedLocationSource: 'volume:3d5f9f28-5e41-424d-9e51-8c6791fe0561' # Public Assets
-      restrictedLocationSubpath: null
-      selectionCondition:
-        __assoc__:
-          -
-            - elementType
-            - craft\elements\Asset
-          -
-            - fieldContext
-            - global
-          -
-            - class
-            - craft\elements\conditions\assets\AssetCondition
-      selectionLabel: null
-      showSiteMenu: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      sources: '*'
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: list
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
-  4484d532-0100-495e-ac29-1e08c80ef497: # Hero Text
+  4484d532-0100-495e-ac29-1e08c80ef497: # Link
     columnSuffix: afsgqkrc
-    contentColumnType: text
+    contentColumnType: string
     fieldGroup: null
-    handle: heroText
-    instructions: 'This will be the hero text, presumably: Invisible Man'
-    name: 'Hero Text'
+    handle: customLink
+    instructions: null
+    name: Link
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: true
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: true
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-  b14585f2-af69-49dd-af4c-8866c1976ec8: # Nav
+    type: lenz\linkfield\fields\LinkField
+  b14585f2-af69-49dd-af4c-8866c1976ec8: # Heading
     columnSuffix: ilyopvpw
     contentColumnType: string(255)
     fieldGroup: null
-    handle: nav
-    instructions: 'This is the nav bar'
-    name: Nav
+    handle: heading
+    instructions: null
+    name: Heading
     searchable: false
     settings:
       maxLength: 255
