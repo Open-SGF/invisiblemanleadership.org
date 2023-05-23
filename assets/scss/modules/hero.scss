@@ -6,12 +6,10 @@
     width: 100%;
     height: 471px;
 
-    border: 2px solid red;
-
     .header {
         background-color: #213846;
         grid-row: 1 / 3;
-        padding-top: 83px;
+        padding-top: 82px;
         padding-left: 166px;
         padding-right: 82px;
     }
@@ -19,17 +17,18 @@
     .header h1 {
         color: #FFFFFF;
         font-weight: 800;
-        font-size: 53px;
-        line-height: 62.52px;
+        font-size: 52px;
+        line-height: 62px;
     }
 
     .header button {
-        width: 191px;
-        height: 59px;
-        margin-top: 20px;
-        padding: 18px 28px 18px 28px;
+        width: 220px;
+        height: 60px;
+        margin-top: 30px;
+        padding: 18px;
         border-radius: 120px;
         background-color: #e3634b;
+        border: none;
 
         color: #FFFFFF;
         font-weight: 400;
