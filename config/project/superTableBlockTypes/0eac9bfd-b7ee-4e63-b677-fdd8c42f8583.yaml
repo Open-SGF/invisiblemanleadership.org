@@ -1,4 +1,4 @@
-changedFieldIndicator: 756631456
+changedFieldIndicator: 1254219686
 field: 0e32b2e3-7176-4e6b-b27a-a9d009520a89 # Events
 fieldLayouts:
   365eadaf-c091-4d33-8a18-c80041211023:
@@ -60,13 +60,12 @@ fields:
       ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
       columnType: text
       defaultTransform: null
+      enableSourceEditingForNonAdmins: false
       purifierConfig: null
       purifyHtml: true
-      removeEmptyTags: false
-      removeInlineStyles: false
-      removeNbsp: false
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
+      showWordCount: false
     translationKeyFormat: null
     translationMethod: none
     type: craft\ckeditor\Field

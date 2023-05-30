@@ -1,78 +1,78 @@
 field: 8fea7832-8658-4760-82a2-fea191ae7ac0 # Blocks
 fieldLayouts:
-  11584b12-62ab-4c6d-bd96-af95de3378b4:
+  d74ae7f2-7a10-496e-8302-4bc08a2312a0:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: dbe1bd8a-c52b-418f-be3b-fe46ac093d9c # Tabs
+            fieldUid: eac87650-2610-477f-b40e-8e157361bad2 # Items
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 76281783-f067-4cda-918f-15094d0d043d
+            uid: 27f5c25b-0241-4d6a-849a-bbb35303c256
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c0554766-2af9-42fd-b382-894b109e96f4
+        uid: a1d916e1-43a1-4b87-9ee1-faa3855a7ae5
         userCondition: null
 fields:
-  dbe1bd8a-c52b-418f-be3b-fe46ac093d9c: # Tabs
+  eac87650-2610-477f-b40e-8e157361bad2: # Items
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: tabs
+    handle: items
     instructions: null
-    name: Tabs
+    name: Items
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1873971986
+      changedFieldIndicator: 2016496953
       columns:
         __assoc__:
           -
-            - 236f1e3d-b5b7-48b9-9407-f06fa45d0d13 # Tab Title
+            - 3ae3f06f-d2d8-4238-a143-b50ebf425c44 # styledHeading 
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 3807ab11-9fdf-49ac-9af0-9ca3e77892fd # Image
+            - cecd596e-0f70-47f6-8809-836f4d362c13 # Heading background
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 12ea636b-5a1f-4623-987d-16d5a681feb6 # Text
+            - 07ab4dc1-306f-4936-9aae-0215524561cc # Heading
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - d28b8567-1d40-4d40-8f1b-3208f4063d3b # Link
+            - 4001ac73-cfc0-4d93-83e0-3b5533db0f67 # Text
             -
               __assoc__:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_8_tabs}}'
+      contentTable: '{{%stc_9_items}}'
       fieldLayout: row
-      maxRows: 5
+      maxRows: null
       minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: 'Add a tab'
+      selectionLabel: 'Add item'
       staticField: null
     translationKeyFormat: null
     translationMethod: none
     type: verbb\supertable\fields\SuperTableField
-handle: tabCallout
-name: 'Tab Callout'
-sortOrder: 7
+handle: verticalScrollingCallout
+name: 'Vertical Scrolling Callout'
+sortOrder: 8
