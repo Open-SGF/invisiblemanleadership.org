@@ -11,9 +11,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 1.5em;
+        gap: 15px;
     
-        padding-left: 37px;
+        padding-left: 38px;
     }
     
     .tab {
@@ -21,53 +21,54 @@
         width: 225px;
         height: 70px;
         border: none;
-        border-radius: 8px;
+        border-radius: 22px;
         background-color: #e3634b;
-    
+        color: white;
+
+        z-index: 1;
         position: relative;
-        top: 35px;
-        font-size: 1.2rem;
+        top: 18px;
+        font-size: 3em;
         cursor: pointer;
     }
 
     .tab::before {
         content: "";
         position: absolute;
+        z-index: 0;
         top: 0;
-        left: -1.5em;
+        left: -16px;
         bottom: 0;
-        width: 2em;
+        width: 30px;
         background-color: #e3634b;
-        transform: skew(-20deg);
-        border-radius: 12px 0 0 0;
+        transform: skew(-30deg);
+        border-radius: 18px 0 0 0;
     }
 
     .tab::after {
         content: "";
         position: absolute;
-        z-index: 1;
+        z-index: 0;
         top: 0;
-        right: -2.6em;
+        right: -20px;
         bottom: 0;
         width: 2.7em;
         background-color: #e3634b;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 4px 0px 0px rgba(0, 0, 0, 0.25);
         transform: skew(40deg);
         border-radius: 0 8px 0 0;
+        
     }
     
     .active-tab {
-        top: 10px;
-        font-size: 1.6rem;
         text-align: center;
+        z-index: 3;
     }
 
-    .active-tab::before {
-        width: 2.5em;
-    }
-
+    .active-tab::before,
     .active-tab::after {
         width: 3.5em;
+        z-index: 2;
     }
     
     .content-container {
@@ -76,18 +77,18 @@
     }
     
     .active-content {
-        z-index: 1;
+        z-index: 3;
     
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     
-        width: 990px;
+        width: 1024px;
         height: 668px;
-        border: 1px solid black;
-        border-radius: 8px;
-        background-color: white;
+        border: none;
+        border-radius: 30px;
+        background-color: #e3634b;
     }
     
     .content-image {
