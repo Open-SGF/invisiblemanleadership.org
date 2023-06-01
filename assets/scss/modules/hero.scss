@@ -9,16 +9,20 @@
     .header {
         background-color: #213846;
         grid-row: 1 / 3;
-        padding-top: 82px;
-        padding-left: 166px;
-        padding-right: 82px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        padding: 15%;
     }
 
     .header h1 {
         color: #FFFFFF;
         font-weight: 800;
-        font-size: 52px;
-        line-height: 62px;
+        font-size: 5em;
+        line-height: 1.2em;
     }
 
     .header button {
@@ -32,8 +36,8 @@
 
         color: #FFFFFF;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 2em;
+        line-height: 1.1em;
     }
 
     .image-1 {
@@ -64,5 +68,5 @@
         justify-self: end;
         align-self: end;
     }
-
+    
 }
