@@ -1,19 +1,24 @@
 .hero {
     display: flex;
-
     width: 100%;
     height: 471px;
 
     .header {
         background-color: #213846;
         min-width: 200px;
+        width: 100%;
 
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
 
-        padding: 0 15%;
+        padding: 0 10%;
+    }
+
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .header h1 {
