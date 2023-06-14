@@ -1,20 +1,47 @@
-// design title and center text 
 .title {
     color: black;
-    font-size: 5em;
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.lineBreak {
+    width: 60%;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 2em;
+    padding: 3em;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    border-radius: 1.5em;
+} 
+
+.button {
     text-align: center;
 }
 
+.buttonInfo{
+    background: white;
+    text-align: center;
+    border: 2px solid #E3634B;
+    color: #e3634b;
+    padding: 1% 2%;
+    border-radius: 12em;
+}
 
-// create flex box for the 2 x 2 grid 
-
-
-
-//add spaces between the squares 
-
-
-
-// center the text inside the squares
 
 
 
