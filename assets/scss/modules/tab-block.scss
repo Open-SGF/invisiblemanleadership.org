@@ -19,7 +19,7 @@
     .tab {
         padding: 10px 10px 40px 10px;
         width: 200px;
-        height: 60px;
+        height: 62px;
         border: none;
         border-radius: 15% 0 0 0;
         background-color: #e3634b;
@@ -39,13 +39,13 @@
 
     .tab h2 {
         position: relative;
-        z-index: 1;
+        z-index: 3;
     }
 
     .tab::before {
         content: "";
         position: absolute;
-        z-index: 0;
+        z-index: 1;
         top: 0;
         left: -21px;
         bottom: 0;
@@ -62,16 +62,19 @@
     .tab::after {
         content: "";
         position: absolute;
-        z-index: 0;
+        z-index: 2;
         top: 0;
         right: -40px;
         bottom: 0;
         width: 80px;
-        height: 60px;
         background-color: #e3634b;
-        box-shadow: 4px 0px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 3px 0px 6px -6px rgba(0, 0, 0, 0.10);
         transform: skew(40deg);
         border-radius: 0 8px 0 0;
+    }
+
+    .tab:first-of-type::after {
+        height: 62px;
     }
 
     .active-tab {
@@ -87,12 +90,12 @@
 
     .active-tab::before {
         z-index: 2;
-        box-shadow: -3px 0px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: -3px 0px 6px -6px rgba(0, 0, 0, 0.10);
     }
 
     .active-tab::after {
         z-index: 2;
-        box-shadow: 3px 0px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: 3px 0px 6px -6px rgba(0, 0, 0, 0.10);
     }
     
     .content-container {
