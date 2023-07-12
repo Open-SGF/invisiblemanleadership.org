@@ -1,10 +1,11 @@
 .project-grid{
 
     .title {
+        font-family: Abhaya Libre, sans-serif;
         color: black;
-        font-size: 4.5em;
+        font-size: 4.8em;
         text-align: center;
-        padding-bottom: 0.5em;
+        padding-bottom: 0.2em;
     }
 
     .lineBreak {
@@ -16,7 +17,8 @@
 
     .container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:  wrap;
+        margin: 4em 8em;
         justify-content: space-around;
         text-align: center;
         row-gap: 2em;
@@ -28,7 +30,7 @@
         border: none;
         width: 400px;
         height: 300px;
-        border-radius: 1.5em;
+        border-radius: 2em;
         position: relative;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     } 
@@ -37,34 +39,43 @@
         width: 100%;
         object-fit: cover;
         border: none;
-        border-radius: 1.5em;
+        border-radius: 2em;
         
     }
 
+
     .box .mission {
         position: absolute;
+        font-family: Inter, sans-serif;
         color: white;
         left: 50%;
         top: 50%;
-        font-size: 3em;
+        font-size: 4em;
         transform: translate(-50%, -50%);
     }
 
     .box .date {
         position: absolute;
+        font-family: Inter, sans-serif;
         color: white;
         left: 50%;
         top: 62%;
-        font-size: 2em;
+        font-size: 1.8em;
         transform: translate(-50%, -50%);
+        padding-top: 2.5em;
     }
 
     .button {
         text-align: center;
+        padding-top: 1.5em;
     }
 
     .buttonInfo{
+        cursor: default;
+        font-family: Akshar, sans-serif;
+        font-size: 1.8em;
         background: white;
+        text-decoration: none;
         text-align: center;
         border: 2px solid #E3634B;
         color: #e3634b;
