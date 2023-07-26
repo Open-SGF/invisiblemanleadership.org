@@ -1,13 +1,11 @@
 .btn {
-  width: 19rem;
-  height: 6rem;
+  width: 18rem;
+  height: 5rem;
   display: inline-block;
   position: relative;
     
   text-decoration: none;
   text-align: center;
-  font-size: 18px;
-  font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
   
@@ -23,23 +21,32 @@
     color: var(--color-background);
     border: 2px solid var(--color-secondary);
 
-    &:before {
+    &::before {
       background-color: var(--color-background);
+    }
+
+    &::after {
+      background-color: var(--color-secondary);
     }
 
     &:hover,
     &:focus {
       color: var(--color-secondary);
+
+      /* display: none? */
     }
   }
 
   &.btn-style-2 {
-    background-color: var(--color-secondary);
     color: var(--color-background);
     border: 2px solid var(--color-background);
 
-    &:before {
+    &::before {
       background-color: var(--color-background);
+    }
+
+    &::after {
+      background-color: var(--color-secondary);
     }
 
     &:hover,
@@ -49,12 +56,15 @@
   }
 
   &.btn-style-3 {
-    background-color: var(--color-background);
     color: var(--color-secondary);
     border: 2px solid var(--color-secondary);
 
-    &:before {
+    &::before {
       background-color: var(--color-secondary);
+    }
+
+    &::after {
+      background-color: var(--color-background);
     }
 
     &:hover,
@@ -63,7 +73,7 @@
     }
   }
     
-  &:before {
+  &::before {
     position: absolute;
     top: 0;
     left: 50%;
@@ -77,13 +87,19 @@
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
   }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    z-index: -3;
+  }
     
   &:hover {      
     &:before {
       left: 0;
       right: 0;
       opacity: 1;
-      border-radius: 12rem;
+      border-radius: 2rem;
         
       -webkit-transition: 0.5s all ease;
       transition: 0.5s all ease;
@@ -92,10 +108,10 @@
     
   &:focus {
     &:before {
-      left:0;
-      right:0;
-      opacity:1;
-      border-radius: 12rem;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      border-radius: 2rem;
         
       transition:0.5s all ease;
     }
