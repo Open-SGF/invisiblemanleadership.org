@@ -1,9 +1,10 @@
 .btn-test {
     margin: 0 auto;
     padding-top: 50px;
-    
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 2rem;
 }
