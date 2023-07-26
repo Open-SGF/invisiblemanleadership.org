@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;800&family=Akshar&display=swap');
-
-.nav-font,
-.btn {
-    font-family: 'Akshar', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 2.2rem;
-    color: #213846;
-}
-
 .h1 {
     font-family: 'Abhaya Libre', sans-serif;
     font-weight: 800;
@@ -33,10 +22,18 @@
     color: white;
 }
 
-.text {
+.text-1 {
     font-family: 'Akshar', sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 4rem;
+    color: #213846;
+}
+
+.text-2 {
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.2rem;
     color: #213846;
 }
