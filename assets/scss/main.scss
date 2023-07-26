@@ -1,11 +1,8 @@
 @import "normalize.css/normalize.css";
 
 @import "base/all";
-@import "modules/all";
 @import "components/all";
+@import "lib/all";
+@import "modules/all";
 
-@import "functions";
-@import "mixins";
-@import "typography";
-@import "utilities";
 @import "variables";
