@@ -1,11 +1,22 @@
-.full-screen {
-    width: 1280px;
-}
+.container {
+    position: relative;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    max-width: 1260px;
 
-.normal-width {
-    width: 1024px;
-}
+    &.mid-large {
+        max-width: 1300px;
+    }
 
-.narrow-width {
-    width: 770px;
+    &.small {
+        max-width: 1100px;
+    }
+
+    @include mq-below(x-small) {
+        width: calc(100% - 40px);
+    }
+
+    @include mq-below(tiny) {
+        width: calc(100% - 20px);
+    }
 }
