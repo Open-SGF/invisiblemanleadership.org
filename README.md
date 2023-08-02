@@ -34,3 +34,8 @@
     - If your host machine is linux it's possible that the user in the docker containers is different than the one on your host machine. You can add the env variables `WWWGROUP` and `WWWUSER` to `.env`. You'll need to set these values to be your host systems user id and group id. You can get these values with the `id` command. Make sure to rebuild your containers with `docker compose build --no-cache` afterwards.
 - Craft cannot connect to the database when running `php craft install`
     - It's possible some environment variables got cached when running your docker containers. Try deleting your docker images and volumes entirely (which is easily done via the Docker Desktop UI), making sure that your database connection environment variables match the ones found in `.env.example` (or any alterations, such as port forwarding, are taken care of now). Once that is complete, rebuild your containers from scratch and try again.
+
+## Starting and stopping Container
+- Make sure your in the reop ``cd invisiblemanleadership.org``
+- Starting the container ``docker-compose start``
+- Stopping the container ``docker-compose stop``
