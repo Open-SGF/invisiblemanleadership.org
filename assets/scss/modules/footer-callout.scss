@@ -1,0 +1,70 @@
+
+#footer-callout-div {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 4rem;
+    width: 42vw;
+    height: 22vh;
+    border-radius: 60px;
+    background-color:#213846;
+    color: #FFFF;
+    
+}
+
+#footer-callout-div-text {
+    position: relative;
+    text-align: center;
+    margin-left: 15rem;
+    padding-top: 3rem;
+}
+
+#footer-callout-div-text h2{
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#footer-callout-div-text p{
+    margin-bottom: 1rem;
+}
+
+.footer-callout-btn {
+    background-color: #E3634B;
+    color: #FFFF;
+    border: none;
+    border-radius: 120px;
+    height: 3rem;
+    width: 10rem;
+}
+
+#footer-callout-btn-two{
+    margin-left: 2rem;
+}
+
+#footer-callout-image{
+    position: relative;
+    left: 8rem;
+    bottom: 1rem;
+    background-color:#437899;
+    border-radius: 180px;
+    width: 18rem;
+    height: 18rem;
+}
+
+#footer-callout-image svg {
+    height: 30rem;
+}
+
+/*
+questions: 
+    1. Are we using hardcoded values, or responsive?
+    2. Size numbers based off of the wireframe?
+todo:
+    1. get spacing right and sizes correct
+    2. get image placement
+*/
