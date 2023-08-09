@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "prepare": "husky install",
-    "lint": "eslint --fix ./assets/js/"
+    "lint": "eslint --fix ./assets/js/",
+    "eslint:github-action": "eslint src/"
   },
   "repository": {
     "type": "git",
