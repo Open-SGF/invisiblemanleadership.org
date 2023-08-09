@@ -1,12 +1,7 @@
 @import "normalize.css/normalize.css";
 
-@import "variables";
-@import "utils/all";
 @import "base/all";
+@import "variables";
+@import "lib/all";
+@import "components/all";
 @import "modules/all";
-@import "navbar";
-
-
-h1 {
-    color: red;
-}

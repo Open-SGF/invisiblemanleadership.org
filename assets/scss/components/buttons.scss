@@ -1,0 +1,110 @@
+.btn {
+  width: 18rem;
+  height: 5rem;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+    
+  text-decoration: none;
+  text-align: center;
+  
+  padding: 14px 0px;
+  border-radius: 12rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s ease all;
+    
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    z-index: -2;
+      
+    content: '';
+  
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+    
+  &:hover {      
+    &::before {
+      left: 0;
+      right: 0;
+      border-radius: 12rem;
+        
+      -webkit-transition: 0.5s all ease;
+      transition: 0.5s all ease;
+    }
+  }
+    
+  &:focus {
+    &::before {
+      left: 0;
+      right: 0;
+      border-radius: 12rem;
+        
+      transition:0.5s all ease;
+    }
+  }
+
+  &.btn-style-1 {
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    border: 2px solid var(--color-secondary);
+
+    &::before {
+      background-color: var(--color-secondary);
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--color-secondary);
+
+      &::before {
+        background-color: var(--color-background);
+      }
+    }
+  }
+
+  &.btn-style-2 {
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    border: 2px solid var(--color-background);
+
+    &::before {
+      background-color: var(--color-background);
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--color-background);
+
+      &::before {
+        background-color: var(--color-secondary);
+      }
+    }
+  }
+
+  &.btn-style-3 {
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+
+    &::before {
+      background-color: var(--color-background);
+      border-radius: 20px;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--color-background);
+
+      &::before {
+        background-color: var(--color-secondary);
+      }
+    }
+  }
+}

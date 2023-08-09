@@ -1,25 +1,18 @@
+:root {
+    --color-primary: hsl(203, 36%, 20%);
+    --color-primary-light: hsl(203, 36%, 30%);
+
+    --color-secondary: hsl(9, 73%, 59%);
+    --color-secondary-light: hsl(9, 73%, 69%);
+
+    --color-background: #FFF;
+    --color-black: #000; 
+}
 
 $primary-font: serif;
 $secondary-font: sans-serif;
 
 $navigation-desktop-height: 104px;
-
-$colors: (
-    primary: (
-        light: #C8B8E1,
-        base: #9F75E1,
-        mid-gray: #9488A7,
-        mid-dark: #7e55be,
-        dark: #694D95,
-        translucent-dark: #744eb2c1,
-    ),
-    white: (
-        base: #FFF,
-    ),
-    black: (
-        base: #000,
-    )
-);
 
 $z-index: (
     skip-nav: 20,
