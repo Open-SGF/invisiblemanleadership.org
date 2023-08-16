@@ -18,9 +18,10 @@
     .container {
         display: flex;
         flex-wrap:  wrap;
-        margin: 4em 8em;
+        margin: 2.5em 10em;
         justify-content: space-around;
         text-align: center;
+        height: 70em;
         row-gap: 2em;
         padding: 4em;
     }
@@ -28,7 +29,7 @@
     .box {
         display: inline-block;
         border: none;
-        width: 400px;
+        width: 415px;
         height: 300px;
         border-radius: 2em;
         position: relative;
@@ -40,9 +41,7 @@
         object-fit: cover;
         border: none;
         border-radius: 2em;
-        
     }
-
 
     .box .mission {
         position: absolute;
@@ -52,6 +51,7 @@
         top: 50%;
         font-size: 4em;
         transform: translate(-50%, -50%);
+        white-space: nowrap;
     }
 
     .box .date {
@@ -62,7 +62,7 @@
         top: 62%;
         font-size: 1.8em;
         transform: translate(-50%, -50%);
-        padding-top: 2.5em;
+        padding-top: 1em;
     }
 
     .button {
