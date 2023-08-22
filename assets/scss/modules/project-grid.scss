@@ -1,0 +1,91 @@
+.project-grid{
+
+    .title {
+        font-family: Abhaya Libre, sans-serif;
+        color: black;
+        font-size: 4.8em;
+        text-align: center;
+        padding-bottom: 0.2em;
+    }
+
+    .lineBreak {
+        width: 55%;
+        color: #213846;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap:  wrap;
+        margin: 2.5em 4em;
+        justify-content: space-around;
+        text-align: center;
+        height: 85em;
+        row-gap: 2em;
+        padding: 4em;
+    }
+
+    .box {
+        display: inline-block;
+        border: none;
+        width: 483px;
+        height: 328px;
+        border-radius: 2em;
+        position: relative;
+        box-shadow: -3px 3px 7px 2px rgba(0, 0, 0, 0.2);
+    } 
+
+    .box img {
+        display: inline-block;
+        object-fit: cover;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 2em;
+    }
+
+    .box .mission {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: white;
+        left: 50%;
+        top: 50%;
+        font-size: 4em;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+
+    .box .date {
+        position: absolute;
+        font-family: Inter, sans-serif;
+        color: white;
+        left: 50%;
+        top: 62%;
+        font-size: 1.8em;
+        transform: translate(-50%, -50%);
+        padding-top: 1em;
+    }
+
+    .button {
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 5em;
+    }
+
+    .buttonInfo{
+        font-family: Akshar, sans-serif;
+        font-size: 1.8em;
+        background: white;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid #E3634B;
+        color: #e3634b;
+        padding: 1% 2%;
+        border-radius: 12em;
+    }
+
+}
+
+
+

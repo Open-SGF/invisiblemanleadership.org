@@ -49,3 +49,9 @@ following commands in your web container (enter your web container using the met
 ## Troubleshooting
 - Permission denied error when running `composer install`
     - If your host machine is linux it's possible that the user in the docker containers is different than the one on your host machine. You can add the env variables `WWWGROUP` and `WWWUSER` to `.env`. You'll need to set these values to be your host systems user id and group id. You can get these values with the `id` command. Make sure to rebuild your containers with `docker compose build --no-cache` afterwards.
+
+
+## Starting and stopping Container
+- Make sure your in the repo ``cd invisiblemanleadership.org``
+- Starting the container ``docker-compose start``
+- Stopping the container ``docker-compose stop``
