@@ -14,14 +14,17 @@ fs:
 meta:
   __names__:
     0e32b2e3-7176-4e6b-b27a-a9d009520a89: Events # Events
+    1b84a605-1f80-4385-8fe5-4109461ce9df: 'Vertical Scrolling Callout' # Vertical Scrolling Callout
     1e87558d-87bd-4310-965f-4eeb88ec2234: 'Public Schema' # Public Schema
     1f8ded3d-464f-4677-a20e-a7a8ace195b3: Image # Image
+    3ae3f06f-d2d8-4238-a143-b50ebf425c44: 'styledHeading ' # styledHeading 
     3cb37d07-55f6-4ffd-aaf4-b7b4e763c53c: Logos # Logos
     3d5f9f28-5e41-424d-9e51-8c6791fe0561: 'Public Assets' # Public Assets
     3e6f485a-bd73-4877-a29e-329994951ea5: Cards # Cards
     4a8f835f-f041-427c-a837-acc1f3a8c973: Text # Text
     5ee7c67e-32cf-4b9c-b3fe-a14f86f2f60c: Header # Header
     6b6afd05-9cc6-4a8b-a9b0-426ae2ec21c5: 'Stats Table' # Stats Table
+    07ab4dc1-306f-4936-9aae-0215524561cc: Heading # Heading
     7dd82277-b22c-4d92-993d-429ae8f92bf8: Common # Common
     8a94f6f0-17f0-45ff-bcab-aba52fa8a6e8: photo # photo
     8fea7832-8658-4760-82a2-fea191ae7ac0: Blocks # Blocks
@@ -47,6 +50,7 @@ meta:
     1782a7b8-9a4c-46f5-a0b7-2588b902cf4b: Heading # Heading
     3686e5d4-d982-4c5e-a623-fe9f1ec6aba8: Text # Text
     3807ab11-9fdf-49ac-9af0-9ca3e77892fd: Image # Image
+    4001ac73-cfc0-4d93-83e0-3b5533db0f67: Text # Text
     4117a0d7-1077-4b6b-aee2-49fe2f067165: photos # photos
     4315b9f4-bbde-4b68-8395-340ea7f8203d: Stats # Stats
     4484d532-0100-495e-ac29-1e08c80ef497: Link # Link
@@ -60,6 +64,7 @@ meta:
     b14585f2-af69-49dd-af4c-8866c1976ec8: Heading # Heading
     c7f53792-f2df-4327-aee5-d2e5f0335b95: 'Tab Callout' # Tab Callout
     c9ad660a-b24e-4c3d-b87f-685185cc32f2: 'Background Image' # Background Image
+    cecd596e-0f70-47f6-8809-836f4d362c13: 'Heading background' # Heading background
     d4f26e3f-b377-4e05-b84c-dbf98e64f826: Link # Link
     d5a81be2-83ca-46a2-a9d4-d97d68b8da6f: Home # Home
     d28b8567-1d40-4d40-8f1b-3208f4063d3b: Link # Link
@@ -70,6 +75,7 @@ meta:
     e4c794ce-2250-48f7-86fe-cc451727b17f: 'Rich Text' # Rich Text
     e4f4af5c-69d6-4acc-9fc4-c70666b6c415: Simple # Simple
     ea4cc075-2720-4b5e-8764-d87555c1ba68: Heading # Heading
+    eac87650-2610-477f-b40e-8e157361bad2: Items # Items
     f31fd87e-6a49-4079-ab58-f771fec5bb84: Timeline # Timeline
     f848d360-bf9c-4006-a125-b2fc0d8f0d90: Stat # Stat
     f2206ae6-9a42-4b03-b6fd-c88253dff38c: 'Example Input' # Example Input

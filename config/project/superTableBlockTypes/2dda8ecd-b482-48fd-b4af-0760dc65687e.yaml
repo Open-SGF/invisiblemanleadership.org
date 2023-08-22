@@ -1,70 +1,133 @@
-changedFieldIndicator: 1733901498
-field: 3e6f485a-bd73-4877-a29e-329994951ea5 # Cards
+changedFieldIndicator: 1875673603
+field: eac87650-2610-477f-b40e-8e157361bad2 # Items
 fieldLayouts:
-  c858d43e-0b31-4d24-a10f-bfb286306568:
+  fb640a1e-f926-4305-833b-ca15ea717c33:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 1f8ded3d-464f-4677-a20e-a7a8ace195b3 # Image
+            fieldUid: 3ae3f06f-d2d8-4238-a143-b50ebf425c44 # styledHeading 
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4c5490da-a8d5-40d3-b7e9-05a7579f0a08
+            uid: cba64a01-1057-4f1e-877d-ce5fcdedb03d
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 55fa79ea-5553-42d9-8e46-93726cd9c7e3 # Heading
+            fieldUid: cecd596e-0f70-47f6-8809-836f4d362c13 # Heading background
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 77337e15-3eb8-46ba-b680-32384479b5fd
+            uid: 71b3f05f-f622-4ba8-8d59-51226ba9f4f6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f9911ada-d8f1-439c-a699-315a06fc42f8 # Sub Heading
+            fieldUid: 07ab4dc1-306f-4936-9aae-0215524561cc # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ecc87d32-3ef8-408b-930c-04bcdc5e39d2
+            uid: cdfa210c-c489-4f69-81f0-49a4bf9d9d81
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 698fb72b-9d3b-499e-a0c9-63bb555150b8 # Description
+            fieldUid: 4001ac73-cfc0-4d93-83e0-3b5533db0f67 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: db0d3355-4f08-43d9-bdcb-d1ddbbf4391f
+            uid: 323eb9c4-b616-4e1c-bb28-844923b761e9
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3bd775ba-9b66-44a2-b5f1-cf794acf1ee0
+        uid: b81d6c10-454b-4695-9d47-bcbaa6b3a45b
         userCondition: null
 fields:
-  1f8ded3d-464f-4677-a20e-a7a8ace195b3: # Image
+  3ae3f06f-d2d8-4238-a143-b50ebf425c44: # styledHeading 
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: styledheading
+    instructions: null
+    name: 'styledHeading '
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  07ab4dc1-306f-4936-9aae-0215524561cc: # Heading
+    columnSuffix: hfewaecq
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4001ac73-cfc0-4d93-83e0-3b5533db0f67: # Text
+    columnSuffix: nrjwhlwb
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: e4f4af5c-69d6-4acc-9fc4-c70666b6c415 # Simple
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  cecd596e-0f70-47f6-8809-836f4d362c13: # Heading background
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: image
+    handle: headingBackground
     instructions: null
-    name: Image
+    name: 'Heading background'
     searchable: false
     settings:
       allowSelfRelations: false
@@ -76,7 +139,7 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: 1
+      maxRelations: null
       minRelations: null
       previewMode: full
       restrictFiles: false
@@ -106,63 +169,3 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  55fa79ea-5553-42d9-8e46-93726cd9c7e3: # Heading
-    columnSuffix: gczbkkny
-    contentColumnType: text
-    fieldGroup: null
-    handle: heading
-    instructions: null
-    name: Heading
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  698fb72b-9d3b-499e-a0c9-63bb555150b8: # Description
-    columnSuffix: qfwohqrj
-    contentColumnType: text
-    fieldGroup: null
-    handle: description
-    instructions: null
-    name: Description
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  f9911ada-d8f1-439c-a699-315a06fc42f8: # Sub Heading
-    columnSuffix: hsmikpap
-    contentColumnType: text
-    fieldGroup: null
-    handle: subHeading
-    instructions: null
-    name: 'Sub Heading'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
