@@ -1,0 +1,111 @@
+.navbar {
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+// Image Styling
+.row{
+    justify-content: start;
+    display: flex;
+    flex-basis: 10rem;
+    flex-direction: row;
+    padding: 0px 10px 10px 10px;
+}
+
+// Link Styling
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.col {
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0px 20px 20px 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.giveBTN {
+    color: white;
+    background-color: #e3634b;
+    width: 169px;
+    height: 59px;
+    left: 1069px;
+    top: 27px;
+    border: 0px;
+    border-radius: 120px;
+    
+}
+
+.text-links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.story{
+    width: 73px;
+    height: 22px;
+    left: 469px;
+    top: 46px;
+    color: #213846;
+
+}
+
+.program {
+    color: #213846;
+    width: 95px;
+    height: 22px;
+    top: 46px;
+    left: 607px;
+}
+
+.mission {
+    color: #213846;
+    width: 100px;
+    height: 22px;
+    top: 46px;
+    left: 771px;
+}
+
+.contact {
+    color: #213846;
+    width: 82px;
+    height: 22px;
+    top: 46px;
+    left: 935px;
+}
+
+.giveBTN:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #213846;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+
+
+
+
+
+}
